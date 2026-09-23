@@ -1,0 +1,739 @@
+region,prefecture,commune,nom,categorie,statut,en_service,lon,lat
+Maritime,Golfe,Golfe 5,BTCI Amadahome,Banque,Nsp,True,1.16543,6.20354
+Maritime,Bas-Mono,Bas-Mono 1,FUCEC Togo Afagnan,Micro-Finance,Utilisé,True,1.62712,6.49577
+Maritime,Zio,Zio 1,Mutuelle Dignite Humaine,Mutuelle,Utilisé,True,1.28716,6.26622
+Maritime,Zio,Zio 1,Mutuelle Le Roc,Mutuelle,Utilisé,True,1.37288,6.23953
+Maritime,Golfe,Golfe 5,FUCEC-Togo,Micro-Finance,Utilisé,True,1.16901,6.18348
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,CIF Assurance-vie,Assurance,Utilisé,True,1.18953,6.20619
+Maritime,Golfe,Golfe 6,BTCI Baguida,Banque,Utilisé,True,1.3382,6.1675
+Maritime,Golfe,Golfe 5,Microfinance Millenium Totsi,Micro-Finance,Utilisé,True,1.18668,6.19708
+Maritime,Golfe,Golfe 5,BTCI Agbalepedogan,Banque,Nsp,True,1.20074,6.19762
+Maritime,Zio,Zio 1,COOPAD Djagblé,Micro-Finance,Utilisé,True,1.28279,6.25412
+Plateaux,Ogou,Ogou 1,SUNU Bank Yata,Banque,Fermé,False,1.14038,7.51964
+Maritime,Zio,Zio 1,Mutuelle Meci,Mutuelle,Utilisé,True,1.28356,6.25605
+Maritime,Golfe,Golfe 4,Direction générale Siab Togo,Banque,Utilise,True,1.22459,6.12361
+Centrale,Blitta,Blitta 2,UCMECF To Point de Agbandji,Micro-Finance,Utilisé,True,1.13456,8.22702
+Centrale,Blitta,Blitta 1,FUCEC Togo Agence Pagala,Micro-Finance,Utilisé,True,0.97541,8.17807
+Maritime,Zio,Zio 1,Mutuelle Le President Microfinance Sa,Mutuelle,{autre},True,1.29196,6.27052
+Maritime,Agoè-Nyivé,Agoè-Nyivé 3,FUCEC-togo Agence Vakpossito,Micro-Finance,Nsp,True,1.16933,6.218
+Maritime,Golfe,Golfe 5,UTB Agence Totsi,Banque,Utilisé,True,1.18756,6.1965
+Maritime,Zio,Zio 1,CECAV Gbama Kope,Micro-Finance,Utilisé,True,1.2636,6.26086
+Maritime,Golfe,Golfe 5,COOPEC Fidelite,Micro-Finance,Utilisé,True,1.18172,6.17569
+Maritime,Golfe,Golfe 5,Mutuelle ASJD Totsi,Mutuelle,Utilisé,True,1.18769,6.19535
+Maritime,Bas-Mono,Bas-Mono 1,CEC Tso Nakle,Mutuelle,Utilisé,True,1.61558,6.49413
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Fidelia Assurance Agbalepedogan,Assurance,Utilisé,True,1.19554,6.2011
+Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Fonds Communautaire Pour Le Developpement,Mutuelle,Utilisé,True,1.16861,6.21909
+Maritime,Zio,Zio 1,COOPEC AD Djagblé,Micro-Finance,Utilisé,True,1.28424,6.25945
+Centrale,Tchaoudjo,Tchaoudjo 1,COMEC Sokode,Micro-Finance,Utilisé,True,1.13517,8.97086
+Centrale,Tchaoudjo,Tchaoudjo 1,BTCI Sokode,Banque,Utilisé,True,1.13894,8.98867
+Centrale,Mô,Mô 1,SPT Djarkpanga,Banque,Inacheve,False,0.5641,8.78294
+Centrale,Mô,Mô 1,COOPEC Plaine de Mo,Micro-Finance,Utilisé,True,0.5629,8.78427
+Centrale,Mô,Mô 2,Microfinance Amitie Entre les Peuples,Micro-Finance,Utilisé,True,0.46369,8.65054
+Maritime,Vo,Vo 4,WAGES Hahotoe,Micro-Finance,Utilisé,True,1.4174,6.36537
+Centrale,Tchaoudjo,Tchaoudjo 1,COOPEC Gaiete de Sokode,Micro-Finance,Utilisé,True,1.13742,8.97895
+Centrale,Tchaoudjo,Tchaoudjo 1,COOPEC AD de Sokode,Micro-Finance,Utilisé,True,1.13615,8.98832
+Centrale,Tchaoudjo,Tchaoudjo 1,ECOBANK Sokode,Banque,Utilisé,True,1.13931,8.98845
+Centrale,Tchaoudjo,Tchaoudjo 1,Banque Atlantique Sokodé,Banque,Utilisé,True,1.13971,8.98742
+Centrale,Tchaoudjo,Tchaoudjo 1,BSIC Sokode,Banque,Utilisé,True,1.13807,8.99039
+Centrale,Tchaoudjo,Tchaoudjo 1,SPT Sokode,Banque,Utilisé,True,1.14038,8.98505
+Centrale,Tchaoudjo,Tchaoudjo 1,ORABANK Sokode,Banque,Utilisé,True,1.13501,8.98812
+Centrale,Tchaoudjo,Tchaoudjo 1,BOA Sokodé,Banque,Utilisé,True,1.13942,8.98817
+Centrale,Tchaoudjo,Tchaoudjo 1,Mutuelle Tibi de Sokode,Micro-Finance,Utilisé,True,1.13854,8.98963
+Maritime,Golfe,Golfe 1,SUNU Bank Akodessewa,Banque,Utilisé,True,1.24098,6.14085
+Centrale,Tchaoudjo,Tchaoudjo 1,WAGES Sokode,Micro-Finance,Utilisé,True,1.14084,8.98792
+Centrale,Tchaoudjo,Tchaoudjo 1,URCLEC Sokode,Micro-Finance,Utilisé,True,1.13561,9.00904
+Centrale,Tchaoudjo,Tchaoudjo 1,CORIS Bank Sokode,Banque,Utilisé,True,1.13834,8.98978
+Centrale,Tchaoudjo,Tchaoudjo 1,Direction URCLEC Sokode,Micro-Finance,Utilisé,True,1.14003,9.02536
+Centrale,Tchamba,Tchamba 1,FUCEC Togo Djayowoa,Micro-Finance,Utilisé,True,1.41418,9.02227
+Centrale,Tchamba,Tchamba 1,UTB Tchamba,Banque,Utilisé,True,1.41589,9.02835
+Centrale,Tchamba,Tchamba 1,URCLEC Iyiwa,Micro-Finance,Utilisé,True,1.4149,9.02253
+Centrale,Tchamba,Tchamba 1,UCMECF-TO Tchamba,Micro-Finance,Utilisé,True,1.42255,9.02547
+Centrale,Tchamba,Tchamba 1,COOPEC ADESEM Forêt chance,Micro-Finance,Utilisé,True,1.42318,9.02651
+Centrale,Tchamba,Tchamba 3,COOPEC ADESEM Djama,Micro-Finance,Utilisé,True,1.58513,8.75182
+Centrale,Tchamba,Tchamba 3,FUCEC Togo Guimegue,Micro-Finance,Utilisé,True,1.59537,8.74756
+Centrale,Tchamba,Tchamba 3,URCLEC Adja,Micro-Finance,Utilisé,True,1.59362,8.74924
+Centrale,Tchamba,Tchamba 3,WAGES Takete,Micro-Finance,Utilisé,True,1.59302,8.74731
+Centrale,Tchamba,Tchamba 2,FUCEC Togo Bassegue,Micro-Finance,Utilisé,True,1.51834,8.83259
+Centrale,Tchaoudjo,Tchaoudjo 1,CMECF Sokode,Micro-Finance,Utilisé,True,1.13727,8.98749
+Centrale,Tchaoudjo,Tchaoudjo 1,COOPEC ADESEM Sokodé,Micro-Finance,Utilisé,True,1.13462,8.98726
+Maritime,Golfe,Golfe 4,ORABANK Nyékonakpoè,Banque,Néant,True,1.21372,6.13009
+Centrale,Tchaoudjo,Tchaoudjo 1,SUNU Bank Sokodé,Banque,Utilisé,True,1.13629,8.97384
+Centrale,Sotouboua,Sotouboua 1,SUNU Bank Sotouboua,Banque,Utilisé,True,0.97894,8.56456
+Centrale,Sotouboua,Sotouboua 1,UTB de Sotouboua,Banque,Utilisé,True,0.97621,8.56132
+Maritime,Golfe,Golfe 6,COOPEC AD Avepozo,Micro-Finance,Utilisé,True,1.35085,6.17148
+Centrale,Sotouboua,Sotouboua 1,ORABANK de Sotouboua,Banque,Utilisé,True,0.97517,8.56078
+Maritime,Golfe,Golfe 5,Banque Atlantique Adidoadin,Banque,Utilisé,True,1.18821,6.1998
+Maritime,Golfe,Golfe 7,COOPEC AD Adidogome Madiba,Micro-Finance,Utilisé,True,1.14821,6.20031
+Centrale,Sotouboua,Sotouboua 1,WAGES M'heza de Sotouboua,Micro-Finance,Utilisé,True,0.97953,8.56585
+Centrale,Sotouboua,Sotouboua 1,FUCEC Togo de Sotouboua,Micro-Finance,Utilisé,True,0.98399,8.56113
+Centrale,Sotouboua,Sotouboua 1,URCLEC de Sotouboua,Micro-Finance,Utilisé,True,0.98331,8.56172
+Centrale,Sotouboua,Sotouboua 1,Mutuelle Tibi de Sotouboua,Micro-Finance,Utilisé,True,0.97451,8.56185
+Centrale,Tchaoudjo,Tchaoudjo 1,UTB Sokodé,Banque,Utilisé,True,1.13975,8.98425
+Centrale,Sotouboua,Sotouboua 1,CMECF Sotouboua,Micro-Finance,Utilisé,True,0.98121,8.56326
+Centrale,Sotouboua,Sotouboua 1,CECO COOP de Sotouboua,Micro-Finance,Utilisé,True,0.97027,8.55591
+Centrale,Sotouboua,Sotouboua 2,FUCEC Togo Adjengre,Micro-Finance,Utilisé,True,1.01798,8.66349
+Centrale,Sotouboua,Sotouboua 3,CMECF-sotouboua,Micro-Finance,Utilisé,True,0.99136,8.43023
+Centrale,Sotouboua,Sotouboua 1,Club Entraide Sans Frontière Microfinance,Micro-Finance,Utilisé,True,0.97629,8.56086
+Centrale,Sotouboua,Sotouboua 2,COOPEC ADESEM de ADjengre,Micro-Finance,Utilisé,True,1.02024,8.66936
+Centrale,Sotouboua,Sotouboua 2,Caisse Mutuelle d'épargne et de Crédit Pour Les Femmes du Togo de ADjengre,Micro-Finance,Utilisé,True,1.0197,8.65841
+Centrale,Sotouboua,Sotouboua 3,COOPEC ADESEM Agence de Tchébébé,Micro-Finance,Utilisé,True,0.99554,8.43372
+Centrale,Sotouboua,Sotouboua 3,FUCEC Togo Enente de Tchebebe,Micro-Finance,Utilisé,True,0.99139,8.43464
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Aliada Agoe,Micro-Finance,Utilisé,True,1.19714,6.23267
+Centrale,Tchaoudjo,Tchaoudjo 1,SPT Kpangalam,Banque,Utilisé,True,1.13619,9.00954
+Centrale,Blitta,Blitta 1,URCLEC Lamakaza,Micro-Finance,Utilisé,True,0.98663,8.32863
+Centrale,Blitta,Blitta 1,FUCEC Togo Blitta zongo,Micro-Finance,Utilisé,True,0.97768,8.32652
+Centrale,Blitta,Blitta 1,SPT Pagala Gare,Banque,Utilisé,True,0.96497,8.1839
+Centrale,Blitta,Blitta 1,UTB Lamakaza,Banque,Utilisé,True,0.98621,8.33103
+Centrale,Blitta,Blitta 2,FUCEC Togo Bagbo,Micro-Finance,Utilisé,True,1.13357,8.23094
+Centrale,Blitta,Blitta 1,Micro Finance URCLEC de Pagala Gare,Micro-Finance,Utilisé,True,0.96522,8.1837
+Centrale,Blitta,Blitta 1,UCMEF de Pagala Gare,Micro-Finance,Utilisé,True,0.97145,8.18031
+Centrale,Sotouboua,Sotouboua 1,SPT Sotouboua,Banque,Utilisé,True,0.97758,8.56437
+Maritime,Golfe,Golfe 1,BIA Togo de Be Apeyeyeme,Banque,Néant,True,1.24034,6.14095
+Centrale,Sotouboua,Sotouboua 2,SPT ADjengre,Banque,Utilisé,True,1.01905,8.65936
+Centrale,Tchamba,Tchamba 1,Finance-centralespt-tchamba,Micro-Finance,Utilisé,True,1.41776,9.02061
+Centrale,Tchamba,Tchamba 3,Finance Centrale Spt-kaboli,Micro-Finance,Utilisé,True,1.59597,8.74811
+Centrale,Blitta,Blitta 1,STP Blitta,Banque,Utilisé,True,0.97823,8.32469
+Maritime,Agoè-Nyivé,Agoè-Nyivé 6,FUCEC Togo Adétikopé,Micro-Finance,Néant,True,1.21842,6.32086
+Maritime,Agoè-Nyivé,Agoè-Nyivé 6,La Mutuelle Dignite Humaine,Micro-Finance,Utilisé,True,1.22217,6.31506
+Maritime,Agoè-Nyivé,Agoè-Nyivé 6,CECAV Fraternite Adeticope,Micro-Finance,Utilisé,True,1.21794,6.31831
+Maritime,Agoè-Nyivé,Agoè-Nyivé 6,Mutuelle Akwaba Adetikope,Micro-Finance,Utilisé,True,1.2193,6.32098
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Mutuelle Digitale Humaine Agoè Assiyéué,Micro-Finance,Utilisé,True,1.19672,6.23386
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,CEF-MF Legbassito,Micro-Finance,Utilisé,True,1.16768,6.25673
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,ORABANK Assiyeye,Banque,Utilisé,True,1.19724,6.23293
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,WAGES Agoe,Micro-Finance,Utilisé,True,1.19871,6.23138
+Maritime,Golfe,Golfe 1,SGT Lomé Port,Banque,Utilisé,True,1.27442,6.14323
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,COOPEC la Grâce Divine,Micro-Finance,Utilisé,True,1.17569,6.25719
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,CECAV Yayra Agoe,Micro-Finance,Utilisé,True,1.19586,6.23436
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,URCLEC Agoè Assiyéyé,Micro-Finance,Utilisé,True,1.19877,6.23091
+Maritime,Golfe,Golfe 6,Banque Altantique Luxolin,Banque,Utilisé,True,1.31581,6.16123
+Maritime,Golfe,Golfe 4,LMF le Pavillon,Micro-Finance,Néant,True,1.22862,6.13768
+Maritime,Golfe,Golfe 6,WAGES Baguida,Micro-Finance,Utilisé,True,1.32827,6.16624
+Maritime,Golfe,Golfe 5,CORIS Bank ADidogome Madiba,Banque,Utilisé,True,1.15136,6.19799
+Maritime,Golfe,Golfe 7,Microfinance COECEB Adidogome Assiyeye,Micro-Finance,Utilisé,True,1.14603,6.19752
+Maritime,Golfe,Golfe 7,Microfinance COOP ICEC,Micro-Finance,Néant,True,1.14497,6.19853
+Maritime,Golfe,Golfe 6,SPT Avepozo,Banque,Utilisé,True,1.3447,6.1693
+Maritime,Golfe,Golfe 7,Microfinance Millenium Apedokoe,Micro-Finance,Utilisé,True,1.14397,6.20389
+Maritime,Golfe,Golfe 7,Microfinance Echoppe Togo Wonye,Micro-Finance,Utilisé,True,1.14785,6.19124
+Maritime,Golfe,Golfe 4,BOA Dekon,Banque,Néant,True,1.22686,6.13637
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,CORIS Bank ADIDO-ADIN,Banque,Autre,True,1.18949,6.20905
+Maritime,Golfe,Golfe 5,IB Bank Agbalépédogan,Banque,Utilisé,True,1.20084,6.19759
+Maritime,Golfe,Golfe 3,NSIA Banque Agbalepedogan,Banque,Utilisé,True,1.20758,6.18844
+Maritime,Golfe,Golfe 3,GTA Assurance,Assurance,Utilisé,True,1.20914,6.19112
+Maritime,Golfe,Golfe 5,COECEPT Avédji,Micro-Finance,Utilisé,True,1.17263,6.19318
+Maritime,Golfe,Golfe 5,COOPEC AD Agbalépédogan,Micro-Finance,Utilisé,True,1.19262,6.19538
+Maritime,Golfe,Golfe 1,BIA Togo Akodessewa,Banque,Utilisé,True,1.26715,6.15543
+Maritime,Golfe,Golfe 6,CECAV Fraternité,Micro-Finance,Utilisé,True,1.34908,6.17091
+Maritime,Golfe,Golfe 1,COOPEC AD,Micro-Finance,Utilisé,True,1.27159,6.16554
+Maritime,Golfe,Golfe 1,COCEC de Kanyikope,Micro-Finance,Utilisé,True,1.29656,6.16792
+Maritime,Golfe,Golfe 2,MECI d'attiegou,Micro-Finance,Utilisé,True,1.27105,6.18767
+Maritime,Golfe,Golfe 1,WAGES d'adakpame,Micro-Finance,Utilisé,True,1.28985,6.17018
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Mutual Finance,Micro-Finance,Utilisé,True,1.18818,6.21185
+Maritime,Golfe,Golfe 5,WAGES Avedji,Micro-Finance,Utilisé,True,1.18104,6.20106
+Maritime,Golfe,Golfe 3,Prudential Beneficial Life Insurance,Assurance,Utilisé,True,1.20849,6.19236
+Maritime,Golfe,Golfe 1,SUNU Assurance Akodessewa,Assurance,Utilisé,True,1.241,6.14094
+Maritime,Golfe,Golfe 1,CORIS Bank d'Akodessewa,Banque,Utilisé,True,1.28422,6.15892
+Maritime,Golfe,Golfe 1,CECAV Akodessewa,Micro-Finance,Utilisé,True,1.26736,6.15239
+Maritime,Golfe,Golfe 1,ORABANK du Port,Banque,Utilisé,True,1.26661,6.13904
+Maritime,Golfe,Golfe 6,COCEC Baguida,Micro-Finance,Utilisé,True,1.31364,6.17149
+Maritime,Golfe,Golfe 6,COOPEC La Fructueuse Adamavo,Micro-Finance,Utilisé,True,1.30657,6.1696
+Maritime,Golfe,Golfe 1,Coda Zorobar,Micro-Finance,Utilisé,True,1.2849,6.1645
+Maritime,Golfe,Golfe 1,COOPEC la Fructueuse,Micro-Finance,Utilisé,True,1.26678,6.16517
+Maritime,Golfe,Golfe 1,SPT Akodessewa,Banque,Utilisé,True,1.26724,6.15156
+Maritime,Golfe,Golfe 1,BSIC Lomé Port,Banque,Utilisé,True,1.27662,6.1434
+Maritime,Golfe,Golfe 6,COFEC Baguida,Micro-Finance,Utilisé,True,1.33268,6.16896
+Maritime,Golfe,Golfe 6,ORABANK Baguida,Banque,Utilisé,True,1.32854,6.16452
+Maritime,Golfe,Golfe 6,CORIS Bank Avepozo,Banque,Utilisé,True,1.34057,6.16818
+Maritime,Golfe,Golfe 4,ECOBANK Assivito,Banque,Néant,True,1.22152,6.12922
+Maritime,Golfe,Golfe 6,COOPECfi Avepozo,Micro-Finance,Utilisé,True,1.33752,6.16771
+Maritime,Agoè-Nyivé,Agoè-Nyivé 4,ORABANK Agence Terminal du Sahel,Banque,En réfection,True,1.21008,6.26898
+Maritime,Golfe,Golfe 1,ECOBANK Akodessewa,Banque,Utilisé,True,1.26578,6.15312
+Maritime,Golfe,Golfe 1,ORABANK Port,Banque,Utilisé,True,1.2744,6.14352
+Maritime,Golfe,Golfe 1,BOA Lomé Port,Banque,Utilisé,True,1.27451,6.14297
+Maritime,Golfe,Golfe 1,ECOBANK Rond Point Port,Banque,Utilisé,True,1.27453,6.14286
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,COOPECfI Assiyeye,Micro-Finance,Utilisé,True,1.19755,6.22589
+Maritime,Golfe,Golfe 7,Microfinance FIDES -Togo Yokoe,Micro-Finance,Utilisé,True,1.14375,6.18024
+Maritime,Golfe,Golfe 1,FUCEC Togo Bè,Micro-Finance,Utilisé,True,1.24269,6.14224
+Maritime,Golfe,Golfe 1,GTA Assurance Akodésséwa,Assurance,Utilisé,True,1.27152,6.15039
+Maritime,Golfe,Golfe 1,UTB Lomé Port,Banque,Utilisé,True,1.2748,6.14358
+Maritime,Golfe,Golfe 1,SPT Lomé Port,Banque,Utilisé,True,1.27555,6.1441
+Maritime,Golfe,Golfe 1,COOPEC Maturite TP3,Micro-Finance,Utilisé,True,1.28868,6.16022
+Maritime,Golfe,Golfe 1,BTCI Lomé Port,Banque,Utilisé,True,1.27572,6.14311
+Maritime,Agoè-Nyivé,Agoè-Nyivé 2,COOPEC AD Agence de Legbassito,Micro-Finance,Utilisé,True,1.15224,6.26803
+Maritime,Agoè-Nyivé,Agoè-Nyivé 2,WAGES Agence de Legbassito,Micro-Finance,Utilisé,True,1.15197,6.26685
+Maritime,Golfe,Golfe 3,Banque Atlantique Agence Agbalepedogan,Banque,Néant,True,1.20826,6.19135
+Maritime,Agoè-Nyivé,Agoè-Nyivé 2,FUCEC Togo Agence de Legbassito,Micro-Finance,Utilisé,True,1.15132,6.26716
+Maritime,Agoè-Nyivé,Agoè-Nyivé 2,ASJD Agence de Zossime,Micro-Finance,Utilisé,True,1.15107,6.23314
+Maritime,Golfe,Golfe 6,BOA Baguida,Banque,Utilisé,True,1.32059,6.16254
+Maritime,Golfe,Golfe 6,NSIA Baguida,Banque,Utilisé,True,1.3349,6.16649
+Maritime,Golfe,Golfe 6,BIA Togo Baguida,Banque,Utilisé,True,1.31564,6.16122
+Maritime,Golfe,Golfe 6,FUCEC Togo Baguida,Micro-Finance,Utilisé,True,1.34466,6.16984
+Maritime,Golfe,Golfe 6,Sanlam Baguida,Assurance,Utilisé,True,1.33979,6.16828
+Maritime,Golfe,Golfe 2,SPT Aeroport International Gnassingbe Eyadema,Banque,Utilisé,True,1.25225,6.17427
+Maritime,Golfe,Golfe 2,ECOBANK Aerogare,Banque,Utilisé,True,1.2521,6.17415
+Maritime,Golfe,Golfe 2,NSIA Banque Aeroport International Gnassingbe Eyadema,Banque,Néant,True,1.25298,6.17067
+Maritime,Golfe,Golfe 2,ORABANK Aéroport,Banque,Utilisé,True,1.25311,6.17073
+Maritime,Golfe,Golfe 2,SPT de L 'aeroport International Gnassingbe Eyadema,Banque,Néant,True,1.25153,6.16822
+Maritime,Golfe,Golfe 1,FINAM,Micro-Finance,Abandonné,False,1.24454,6.14383
+Maritime,Golfe,Golfe 3,MECIT Agbalépédo,Micro-Finance,Utilisé,True,1.2084,6.19571
+Maritime,Golfe,Golfe 1,Institution de Microfinance,Micro-Finance,Utilisé,True,1.26887,6.1543
+Maritime,Golfe,Golfe 1,UTB Be Kpehenou,Banque,Utilisé,True,1.23672,6.13838
+Maritime,Golfe,Golfe 7,Agence de Transfert Fintech Atilamonou,Micro-Finance,Utilisé,True,1.12829,6.21743
+Maritime,Golfe,Golfe 7,Microfinance COECEB Segbe,Micro-Finance,En construction,False,1.11238,6.19456
+Maritime,Golfe,Golfe 7,Institution de Microfinance Coopad Segbe,Micro-Finance,Utilisé,True,1.10414,6.19956
+Maritime,Golfe,Golfe 5,BOA ADidogome,Banque,Utilisé,True,1.16515,6.18599
+Maritime,Golfe,Golfe 5,SUNU Assurances Avenou,Assurance,Utilisé,True,1.18462,6.17385
+Maritime,Golfe,Golfe 3,SPT de La Residence du Benin,Banque,Utilisé,True,1.22285,6.1733
+Maritime,Golfe,Golfe 4,SUNU Assurances Vie,Assurance,Utilisé,True,1.20984,6.12508
+Maritime,Golfe,Golfe 4,La Protectrice S.A,Assurance,Utilisé,True,1.2277,6.1336
+Maritime,Golfe,Golfe 5,SGCAR Assurance,Assurance,Utilisé,True,1.20715,6.18899
+Maritime,Golfe,Golfe 5,COOPEC Grace plus Amadahomé,Micro-Finance,Utilisé,True,1.15223,6.19721
+Maritime,Golfe,Golfe 3,Afrik Assurance,Assurance,Utilisé,True,1.22143,6.16456
+Maritime,Golfe,Golfe 4,Lorica Assurance,Assurance,Utilisé,True,1.20321,6.16292
+Maritime,Golfe,Golfe 4,Careas Assurance,Assurance,Utilisé,True,1.21127,6.12989
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Prunelle Assurance,Assurance,Utilisé,True,1.18223,6.2065
+Maritime,Golfe,Golfe 5,Assur Invest,Assurance,Utilisé,True,1.15895,6.20457
+Maritime,Golfe,Golfe 3,SOCAR Togo,Assurance,Utilisé,True,1.20481,6.14615
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,ANOS,Assurance,Utilisé,True,1.18278,6.21132
+Maritime,Golfe,Golfe 3,Afrique Envergure Sarl,Assurance,Utilisé,True,1.21996,6.14498
+Maritime,Golfe,Golfe 4,Saeco Assurances,Assurance,Utilisé,True,1.22822,6.13847
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Primus Courtier,Assurance,Utilisé,True,1.20094,6.2447
+Maritime,Golfe,Golfe 4,Direction Nationale COOPEC-AD,Micro-Finance,Utilisé,True,1.20339,6.11955
+Maritime,Golfe,Golfe 1,NSIA Banque Akodessewa,Assurance,Utilisé,True,1.26741,6.156
+Maritime,Golfe,Golfe 3,Sanlam GTA,Assurance,Utilisé,True,1.21078,6.19168
+Maritime,Golfe,Golfe 3,CIF-Vie Togo S.A,Assurance,Utilisé,True,1.20294,6.16726
+Maritime,Golfe,Golfe 3,LC Assurance,Assurance,Néant,True,1.20539,6.17698
+Maritime,Golfe,Golfe 4,BTCI Dékon,Assurance,En construction,False,1.22573,6.13616
+Maritime,Golfe,Golfe 3,SIAR Assurance,Assurance,Utilisé,True,1.22333,6.16815
+Maritime,Golfe,Golfe 3,CAR.AF.E. Assurance,Assurance,Utilisé,True,1.20982,6.16233
+Maritime,Golfe,Golfe 5,SCAT Assurance,Assurance,Utilisé,True,1.20012,6.18407
+Maritime,Golfe,Golfe 5,CCM Assurance Avé Maria,Assurance,Utilisé,True,1.18332,6.17547
+Maritime,Golfe,Golfe 4,Bellis Courtage Assurance,Assurance,Utilisé,True,1.21275,6.13587
+Maritime,Golfe,Golfe 1,MECI de Be Kpota,Micro-Finance,Utilisé,True,1.2641,6.16077
+Maritime,Golfe,Golfe 4,Gras Savoye,Assurance,Utilisé,True,1.217,6.13492
+Maritime,Golfe,Golfe 3,ASCOMA,Assurance,Utilisé,True,1.20207,6.14906
+Maritime,Golfe,Golfe 1,ARIA-Togo Akodessewa,Assurance,Utilisé,True,1.26528,6.15399
+Maritime,Golfe,Golfe 1,OLEA-Togo,Assurance,Utilisé,True,1.24872,6.13303
+Maritime,Golfe,Golfe 5,NSIA Assurance Avé Maria,Banque,Utilisé,True,1.1859,6.17324
+Maritime,Golfe,Golfe 3,Societe Generale Internationale de Courtage (sgic Sarl),Assurance,Utilisé,True,1.23447,6.16848
+Maritime,Golfe,Golfe 5,UTB Adidoadin,Banque,Utilisé,True,1.18991,6.20528
+Maritime,Golfe,Golfe 3,SCA-Togo Agbalepedogan,Assurance,Utilisé,True,1.20676,6.18487
+Maritime,Golfe,Golfe 3,COOPEC-AD Ramco,Micro-Finance,Utilisé,True,1.21898,6.15078
+Maritime,Golfe,Golfe 4,Fidelia Assurance Nyekonakpoè,Assurance,Utilisé,True,1.21289,6.13085
+Maritime,Golfe,Golfe 4,SCA-Togo Kodjoviakope,Assurance,Utilisé,True,1.20743,6.1225
+Maritime,Golfe,Golfe 4,CARI Conseil,Assurance,Utilisé,True,1.2195,6.13575
+Maritime,Golfe,Golfe 1,A.C.A,Assurance,Utilisé,True,1.23723,6.13114
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,BC2A Agbalépédogan,Assurance,Utilisé,True,1.20389,6.20011
+Maritime,Agoè-Nyivé,Agoè-Nyivé 3,S2CA,Assurance,Utilisé,True,1.17502,6.21147
+Maritime,Golfe,Golfe 5,La Citoyenneté Vie,Assurance,Utilisé,True,1.1883,6.19878
+Maritime,Golfe,Golfe 4,Banque Atlantique Nyékonakpoè,Banque,Néant,True,1.22179,6.12887
+Maritime,Golfe,Golfe 4,UTB Circulaire,Banque,Utilisé,True,1.20994,6.12668
+Maritime,Golfe,Golfe 4,NSIA Assurance Dékon,Assurance,Utilisé,True,1.22324,6.13411
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,UTB ADidoadin,Banque,Utilisé,True,1.18968,6.20629
+Maritime,Golfe,Golfe 4,UTB Adawlato,Banque,Utilisé,True,1.22462,6.12483
+Maritime,Golfe,Golfe 5,SUNU Assurance Avedji,Assurance,Utilisé,True,1.17069,6.19948
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,UTB Agoe Nyive,Banque,Utilisé,True,1.20845,6.21801
+Maritime,Golfe,Golfe 3,UTB Campus,Banque,Utilisé,True,1.21331,6.16293
+Maritime,Golfe,Golfe 4,UTB Media Plus,Banque,Utilisé,True,1.22716,6.13663
+Maritime,Golfe,Golfe 4,UTB Boulevard Est,Banque,Utilisé,True,1.2367,6.13113
+Maritime,Golfe,Golfe 7,CEC Canaan Wognomé,Micro-Finance,Néant,True,1.15915,6.18436
+Maritime,Golfe,Golfe 5,CEC Canaan Agbalépédogan,Micro-Finance,Utilisé,True,1.20078,6.18729
+Maritime,Agoè-Nyivé,Agoè-Nyivé 6,MECI Adétikopé,Micro-Finance,Utilisé,True,1.21943,6.32059
+Maritime,Golfe,Golfe 6,SUNU Bank Baguida,Banque,Utilisé,True,1.32577,6.16479
+Maritime,Golfe,Golfe 5,BTCI Amadahome,Banque,Utilisé,True,1.16575,6.20358
+Maritime,Golfe,Golfe 6,COECEPT Baguida,Micro-Finance,Utilisé,True,1.31452,6.16128
+Maritime,Golfe,Golfe 1,COOPEC la destinee,Micro-Finance,Utilisé,True,1.24759,6.14689
+Maritime,Golfe,Golfe 3,SICAB Adewi,Micro-Finance,Utilisé,True,1.21488,6.16166
+Maritime,Golfe,Golfe 5,Mutuelle ASJD Agbalépédogan,Mutuelle,Utilisé,True,1.20107,6.19748
+Maritime,Golfe,Golfe 5,FUCEC Togo Togo Totsi,Micro-Finance,Utilisé,True,1.18821,6.19602
+Maritime,Golfe,Golfe 5,Assilassime Solidarité,Micro-Finance,Utilisé,True,1.17036,6.18199
+Maritime,Golfe,Golfe 1,Microfinance Alida,Micro-Finance,Utilisé,True,1.24444,6.14288
+Maritime,Golfe,Golfe 6,COCPAV Logoté,Micro-Finance,Utilisé,True,1.31293,6.17476
+Maritime,Golfe,Golfe 1,Banque Atlantique bè Marché,Banque,Fermé,False,1.24458,6.14386
+Maritime,Golfe,Golfe 1,FABES Microfinance de Be Kpehenou,Micro-Finance,Néant,True,1.2403,6.14002
+Maritime,Golfe,Golfe 7,Institution de Microfinance CECL Yokoe,Micro-Finance,Utilisé,True,1.15878,6.1821
+Maritime,Golfe,Golfe 1,Coopérative ICEC,Micro-Finance,Utilisé,True,1.23978,6.20946
+Maritime,Golfe,Golfe 6,MECPIP Avépozo,Micro-Finance,Utilisé,True,1.34563,6.16965
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,COOPEC la Fructueuse,Micro-Finance,Utilisé,True,1.21249,6.22627
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,BSIC Agoe,Banque,Néant,True,1.21084,6.23123
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Mutuelle CEF-MF,Micro-Finance,Utilisé,True,1.20259,6.19991
+Maritime,Golfe,Golfe 5,Sanlam Lomégan,Assurance,Utilisé,True,1.19962,6.18256
+Maritime,Golfe,Golfe 5,Sanlam Totsi,Assurance,Utilisé,True,1.19179,6.19106
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Sanlam Agbalepedogan,Assurance,Utilisé,True,1.19745,6.20014
+Maritime,Golfe,Golfe 5,Microfinance MECPIP de Agbalepedogan,Micro-Finance,Utilisé,True,1.20001,6.19806
+Maritime,Golfe,Golfe 5,ECOBANK Totsi,Banque,Utilisé,True,1.19048,6.19262
+Maritime,Golfe,Golfe 3,BTCI Agbalépédogan,Banque,Utilisé,True,1.20833,6.1894
+Maritime,Golfe,Golfe 3,ORABANK Agbalépédo,Banque,Utilisé,True,1.20841,6.192
+Maritime,Golfe,Golfe 5,COFEC Microfinance,Micro-Finance,Utilisé,True,1.17579,6.18821
+Maritime,Golfe,Golfe 5,Mutuelle ASJD Avédji,Mutuelle,Utilisé,True,1.17275,6.20252
+Maritime,Golfe,Golfe 5,WAGES Adidogome,Micro-Finance,Utilisé,True,1.16999,6.18217
+Maritime,Golfe,Golfe 3,COOPEC Echoppe,Micro-Finance,Utilisé,True,1.21743,6.15248
+Maritime,Golfe,Golfe 5,FINAM Agence Madiba,Micro-Finance,Utilisé,True,1.14834,6.20028
+Maritime,Golfe,Golfe 5,COOPEC Ave Agence Adidogome,Micro-Finance,Utilisé,True,1.16005,6.19053
+Maritime,Golfe,Golfe 5,BSIC Adidogome,Banque,Utilisé,True,1.16651,6.18539
+Maritime,Golfe,Golfe 5,COOPEC Solidarite,Micro-Finance,Utilisé,True,1.16916,6.18309
+Maritime,Golfe,Golfe 5,BTCI Adidogome,Banque,Utilisé,True,1.17082,6.18165
+Maritime,Golfe,Golfe 5,Microfinance Adidogome,Micro-Finance,Utilisé,True,1.17092,6.18105
+Maritime,Golfe,Golfe 5,Banque Atlantique Adidogome,Banque,Utilisé,True,1.18133,6.17585
+Maritime,Golfe,Golfe 5,ORABANK Adidogome,Banque,Utilisé,True,1.18162,6.1757
+Maritime,Golfe,Golfe 5,COOPEC Grâce plus Aménopé,Micro-Finance,Utilisé,True,1.15225,6.19724
+Maritime,Golfe,Golfe 7,Ardi-mec Togo Adidogome Assiyeye,Micro-Finance,Utilisé,True,1.15003,6.19833
+Maritime,Golfe,Golfe 1,Sanlam Bé,Assurance,Utilisé,True,1.23825,6.13903
+Maritime,Golfe,Golfe 1,Echoppe Togo,Micro-Finance,Utilisé,True,1.27436,6.16726
+Maritime,Golfe,Golfe 5,BTCI ADidogome Assiyeye,Banque,Utilisé,True,1.14754,6.20118
+Maritime,Golfe,Golfe 5,Microfinance FINAM Adidogome Madiba,Micro-Finance,Utilisé,True,1.14836,6.20051
+Maritime,Golfe,Golfe 7,Microfinance MECPIPI,Micro-Finance,Utilisé,True,1.15141,6.19057
+Maritime,Golfe,Golfe 3,COOPEC AD Agence Ramco,Micro-Finance,Utilisé,True,1.21878,6.15068
+Maritime,Golfe,Golfe 5,ECOBANK Adidogome Amadahome,Banque,Utilisé,True,1.15261,6.19687
+Maritime,Golfe,Golfe 5,ORABANK Agence Avedji,Banque,Utilisé,True,1.18115,6.20204
+Maritime,Golfe,Golfe 5,BSIC Adidogome Assiyeye,Banque,Utilisé,True,1.14844,6.20128
+Maritime,Golfe,Golfe 5,SUNU Bank Agence Adidogome,Banque,Utilisé,True,1.16599,6.18537
+Maritime,Golfe,Golfe 5,NSIA Assurance Adidogome,Assurance,Utilisé,True,1.17287,6.17989
+Maritime,Golfe,Golfe 5,GTA Assurance Adidogomé,Assurance,Utilisé,True,1.17679,6.17814
+Maritime,Golfe,Golfe 5,FINAM Agence Principale,Micro-Finance,Utilisé,True,1.18113,6.1754
+Maritime,Golfe,Golfe 5,Sanlam Adidogome,Assurance,Utilisé,True,1.18103,6.17578
+Maritime,Golfe,Golfe 5,BIA Togo Adidogome,Banque,Utilisé,True,1.18161,6.17522
+Maritime,Golfe,Golfe 5,Mutuelle Nevaeme,Micro-Finance,Utilisé,True,1.19584,6.17024
+Maritime,Golfe,Golfe 3,BSIC Klikame,Banque,Utilisé,True,1.20539,6.17958
+Maritime,Agoè-Nyivé,Agoè-Nyivé 4,Mutuelle la Dignite,Micro-Finance,Utilisé,True,1.20353,6.25613
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,COOPAD Agoe Zongo,Micro-Finance,Utilisé,True,1.20855,6.25159
+Maritime,Golfe,Golfe 1,COOPEC Maturite,Micro-Finance,Utilisé,True,1.24267,6.14224
+Maritime,Golfe,Golfe 4,CORIS Bank Attikoumé,Banque,Néant,True,1.20253,6.16555
+Maritime,Agoè-Nyivé,Agoè-Nyivé 4,IB Bank Haoussa-Zongo,Banque,Utilisé,True,1.20777,6.26093
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,La Pyramide Sarl,Micro-Finance,Utilisé,True,1.22645,6.22191
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Microfinance WAGES,Micro-Finance,Utilisé,True,1.21141,6.22896
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,SUNU Bank Agence Agoe,Banque,Utilisé,True,1.21088,6.23103
+Maritime,Golfe,Golfe 4,BSIC Nyekonakpoè,Banque,Néant,True,1.20932,6.12655
+Maritime,Agoè-Nyivé,Agoè-Nyivé 4,SPT Zongo,Banque,Utilisé,True,1.20939,6.2538
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,COOPEC DECA,Micro-Finance,Utilisé,True,1.19806,6.25008
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,IFRJRJRJ,Micro-Finance,Néant,True,1.21263,6.23081
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Microfinance MECI Agoe demakpoe,Micro-Finance,Utilisé,True,1.20378,6.23901
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,COOPEC AD Agoe Assiyeye,Micro-Finance,Utilisé,True,1.19565,6.23113
+Maritime,Golfe,Golfe 5,Microfinance CECA ADidogome,Micro-Finance,Utilisé,True,1.15346,6.19586
+Maritime,Golfe,Golfe 7,WAGES Avoeme,Micro-Finance,Utilisé,True,1.13622,6.19357
+Maritime,Golfe,Golfe 7,Sanlam Segbe,Assurance,Utilisé,True,1.12239,6.19341
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Microfinance COECEB Agoè Gbonvé,Micro-Finance,Utilisé,True,1.18401,6.21735
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Millenium Microfinance Atchanve,Micro-Finance,Utilisé,True,1.21041,6.2307
+Maritime,Golfe,Golfe 4,SPT Nyekonakpoe,Banque,Utilisé,True,1.20905,6.12742
+Maritime,Agoè-Nyivé,Agoè-Nyivé 4,Club Entraide Sans Frontière Microfinance,Micro-Finance,Utilisé,True,1.20809,6.25751
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,COOPEC AD Atchanve,Micro-Finance,Utilisé,True,1.21587,6.22516
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Banque Atlantique Agoè plantation,Banque,Utilisé,True,1.21032,6.23414
+Maritime,Golfe,Golfe 1,Banque Atlantique Ahadji-Kpota,Banque,Utilisé,True,1.28441,6.15895
+Maritime,Golfe,Golfe 1,Banque SAB,Banque,Utilisé,True,1.28392,6.15884
+Maritime,Golfe,Golfe 1,FINAM de Be Kpota,Micro-Finance,Utilisé,True,1.26472,6.16123
+Maritime,Golfe,Golfe 4,BCEAO Nyékonakpoè,Banque,Néant,True,1.21234,6.12725
+Maritime,Golfe,Golfe 1,Microfinance Millenium Akodessewa,Micro-Finance,Utilisé,True,1.25208,6.14949
+Maritime,Golfe,Golfe 1,COOPEC Solidarite Bè-Est,Micro-Finance,Utilisé,True,1.26023,6.15141
+Maritime,Golfe,Golfe 1,COOPEC Ave Bèkpota,Micro-Finance,Utilisé,True,1.26648,6.16279
+Maritime,Golfe,Golfe 1,COCEC Anfame,Micro-Finance,Utilisé,True,1.27659,6.16502
+Maritime,Golfe,Golfe 6,COOPEC Solidarite Baguida,Micro-Finance,Utilisé,True,1.30127,6.16898
+Maritime,Golfe,Golfe 2,COCEC Atiegougan,Micro-Finance,Utilisé,True,1.25857,6.19366
+Maritime,Golfe,Golfe 1,SPT Adakpame,Banque,Utilisé,True,1.28943,6.17018
+Maritime,Golfe,Golfe 3,UTB Tokoin Tresor,Banque,Utilisé,True,1.21726,6.15332
+Maritime,Golfe,Golfe 1,Banque Atlantique de Lomé Port,Banque,Utilisé,True,1.27531,6.14348
+Maritime,Golfe,Golfe 3,UTB Adewui,Banque,Utilisé,True,1.21514,6.16175
+Maritime,Golfe,Golfe 3,Micro_finance ICEC,Micro-Finance,Utilisé,True,1.22059,6.15242
+Maritime,Vo,Vo 4,SPT Hahotoe,Banque,Utilisé,True,1.40896,6.36146
+Maritime,Golfe,Golfe 3,COOPEC TRASSTO,Micro-Finance,Utilisé,True,1.22475,6.14937
+Maritime,Golfe,Golfe 3,Banque Atlantique Tokoin SOTED,Banque,Utilisé,True,1.2213,6.15228
+Maritime,Golfe,Golfe 3,ORABANK Tokoin,Banque,Utilisé,True,1.21919,6.1485
+Maritime,Golfe,Golfe 1,Microfinance la Rosee de Dieu,Micro-Finance,Utilisé,True,1.27098,6.17198
+Maritime,Golfe,Golfe 1,MECIT BE-KPOTA,Banque,Néant,True,1.26356,6.15895
+Maritime,Golfe,Golfe 1,WAGES Akodessewa,Micro-Finance,Utilisé,True,1.2667,6.15317
+Maritime,Golfe,Golfe 1,Mutuelle Nevaeme,Micro-Finance,Utilisé,True,1.25464,6.15032
+Maritime,Golfe,Golfe 3,CORIS Bank International,Banque,Utilisé,True,1.22272,6.16434
+Maritime,Golfe,Golfe 1,ECOBANK d'Akodessewa,Banque,Utilisé,True,1.26579,6.15309
+Maritime,Golfe,Golfe 1,SPT Dzifa Kpota,Banque,Utilisé,True,1.27,6.16491
+Maritime,Golfe,Golfe 4,NSIA Banque - Direction générale,Banque,Utilisé,True,1.22806,6.13662
+Maritime,Golfe,Golfe 6,ECOBANK Baguida,Banque,Utilisé,True,1.32693,6.16433
+Maritime,Golfe,Golfe 1,UTB Be Kpota,Banque,Utilisé,True,1.25504,6.1581
+Maritime,Golfe,Golfe 2,UTB Hedzranawo,Banque,Utilisé,True,1.24049,6.18261
+Maritime,Golfe,Golfe 2,UTB Novissi Jean Paul 2,Banque,Utilisé,True,1.23457,6.17447
+Maritime,Agoè-Nyivé,Agoè-Nyivé 2,UMECTO Zossime,Micro-Finance,Utilisé,True,1.15334,6.23331
+Maritime,Golfe,Golfe 3,UTB Sgi,Banque,Utilisé,True,1.21231,6.18819
+Maritime,Golfe,Golfe 3,UTB Cadastre,Banque,Utilisé,True,1.22036,6.16313
+Maritime,Golfe,Golfe 4,UTB Kwadjoviakope,Banque,Utilisé,True,1.19973,6.11369
+Maritime,Golfe,Golfe 5,UTB Adidogome,Banque,Utilisé,True,1.18444,6.17394
+Maritime,Agoè-Nyivé,Agoè-Nyivé 5,WAGES Sanguera,Micro-Finance,Utilisé,True,1.11706,6.22776
+Maritime,Agoè-Nyivé,Agoè-Nyivé 5,FUCEC Togo -Togo COOPEC Akepe,Micro-Finance,Utilisé,True,1.1164,6.22835
+Maritime,Agoè-Nyivé,Agoè-Nyivé 5,COOPEC Grace Plus Agningbe,Micro-Finance,Utilisé,True,1.11251,6.2301
+Maritime,Agoè-Nyivé,Agoè-Nyivé 5,WAGES Zossime,Micro-Finance,Utilisé,True,1.15019,6.2327
+Maritime,Agoè-Nyivé,Agoè-Nyivé 2,FUCEC Togo Zossime,Micro-Finance,Utilisé,True,1.15153,6.23406
+Maritime,Agoè-Nyivé,Agoè-Nyivé 3,CEC Canaan Assigomé,Micro-Finance,Utilisé,True,1.15881,6.22747
+Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Assilassime Solidarite Agence Vakpossito,Micro-Finance,Utilisé,True,1.16355,6.21783
+Maritime,Golfe,Golfe 4,ORABANK Awsivito,Banque,Néant,True,1.22256,6.13071
+Maritime,Golfe,Golfe 4,BIA Togo Amoutivé,Banque,Néant,True,1.22281,6.13507
+Maritime,Golfe,Golfe 4,SUNU Bank Hanoukopé,Banque,Néant,True,1.21906,6.13519
+Maritime,Golfe,Golfe 4,BIDC,Banque,Néant,True,1.2244,6.13627
+Maritime,Golfe,Golfe 4,COFINA,Micro-Finance,Néant,True,1.20992,6.1219
+Maritime,Golfe,Golfe 1,CORIS Bank Dekon,Banque,Néant,True,1.23563,6.13365
+Maritime,Golfe,Golfe 4,BOA Adawalto,Banque,Néant,True,1.22426,6.12277
+Maritime,Golfe,Golfe 3,FUCEC Togo Attikoumé,Micro-Finance,Néant,True,1.20284,6.16735
+Kara,Kéran,Kéran 1,Promo Finance Kanté,Micro-Finance,Utilisé,True,1.04743,9.94722
+Maritime,Agoè-Nyivé,Agoè-Nyivé 6,Club Entraide Sans Frontiere Microfinance( CEF-MF),Micro-Finance,Utilisé,True,1.2177,6.32404
+Maritime,Agoè-Nyivé,Agoè-Nyivé 6,SPT Adeticope,Banque,Utilisé,True,1.21687,6.3177
+Maritime,Agoè-Nyivé,Agoè-Nyivé 6,FEDES Togo,Micro-Finance,Utilisé,True,1.2177,6.31737
+Kara,Dankpen,Dankpen 1,SPT Guerin Kouka,Banque,Néant,True,0.6089,9.68508
+Maritime,Agoè-Nyivé,Agoè-Nyivé 1,ASJD LEO 2000,Micro-Finance,Utilisé,True,1.17705,6.2114
+Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Microfinance Trinité,Micro-Finance,Utilisé,True,1.15969,6.21851
+Maritime,Agoè-Nyivé,Agoè-Nyivé 3,DSA Bank Vakpossito,Banque,Utilisé,True,1.15932,6.21909
+Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Microfinance MEDAD,Micro-Finance,Utilisé,True,1.15257,6.21851
+Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Microfinance Ardi-mec,Micro-Finance,Utilisé,True,1.16078,6.2137
+Maritime,Golfe,Golfe 5,Microfinance COCEC,Micro-Finance,Néant,True,1.15805,6.21033
+Kara,Kéran,Kéran 1,SPT Kanté,Banque,Utilisé,True,1.04749,9.95938
+Kara,Kéran,Kéran 1,FUCEC Togo Kante,Micro-Finance,Utilisé,True,1.04571,9.95866
+Kara,Kéran,Kéran 1,SUNU Bank Kanté,Banque,Utilisé,True,1.05391,9.95706
+Kara,Kéran,Kéran 1,MUFEC Kanté,Micro-Finance,Utilisé,True,1.04889,9.95888
+Maritime,Zio,Zio 2,FECECAV Kovie,Micro-Finance,Utilisé,True,1.10754,6.34103
+Kara,Kéran,Kéran 1,ORABANK Kanté,Banque,Utilisé,True,1.04688,9.95222
+Kara,Kéran,Kéran 1,UTB Kante,Banque,Utilisé,True,1.04641,9.95882
+Kara,Kozah,Kozah 2,UTB Pya,Banque,Utilisé,True,1.14662,9.64746
+Kara,Kozah,Kozah 2,SPT Pya,Banque,Utilisé,True,1.14436,9.65285
+Kara,Kozah,Kozah 1,BOA Ewoou,Banque,Utilisé,True,1.18975,9.54926
+Kara,Kozah,Kozah 1,SPT Welade,Banque,Utilisé,True,1.18963,9.54998
+Kara,Kozah,Kozah 1,CAVEC Lidaw,Micro-Finance,Utilisé,True,1.18914,9.54472
+Kara,Kozah,Kozah 1,CORIS Bank Cofake,Banque,Utilisé,True,1.19645,9.54879
+Kara,Kozah,Kozah 1,BIA Togo Ewonou,Banque,Néant,True,1.19254,9.54734
+Kara,Kozah,Kozah 1,SPT Cofac,Banque,Utilisé,True,1.19487,9.54829
+Kara,Kozah,Kozah 1,ORABANK Ewoou,Banque,Utilisé,True,1.18905,9.55055
+Kara,Kozah,Kozah 1,NSIA Banque Ewoou,Banque,Utilisé,True,1.19025,9.54792
+Kara,Kozah,Kozah 1,ECOBANK Ewoou,Banque,Utilisé,True,1.18993,9.54895
+Kara,Kozah,Kozah 1,Banque Atlantique Kpingning-Boua,Banque,Utilisé,True,1.18913,9.55038
+Kara,Assoli,Assoli 1,Cef Microfinance Bafilo,Micro-Finance,Utilisé,True,1.2453,9.35139
+Kara,Assoli,Assoli 1,SPT Bafilo,Banque,Utilisé,True,1.24266,9.35664
+Kara,Assoli,Assoli 1,COOPEC Ariziki,Micro-Finance,Utilisé,True,1.24196,9.35788
+Kara,Kozah,Kozah 1,COMEC Kara Camp Général Ameyi,Micro-Finance,Utilisé,True,1.17793,9.57044
+Kara,Kozah,Kozah 1,UTB Kara,Banque,Utilisé,True,1.184,9.55722
+Kara,Assoli,Assoli 1,Promofinance Bafilo,Micro-Finance,Utilisé,True,1.24369,9.35303
+Kara,Assoli,Assoli 1,MUCAD Bafilo,Micro-Finance,Utilisé,True,1.24399,9.35409
+Kara,Kozah,Kozah 1,ORABANK Ewaou,Banque,Utilisé,True,1.18649,9.54966
+Kara,Kozah,Kozah 2,Promofinance Ténouyo,Micro-Finance,Utilisé,True,1.15175,9.66265
+Kara,Kozah,Kozah 2,SUNU Bank Pya,Banque,Utilisé,True,1.15633,9.66784
+Kara,Dankpen,Dankpen 1,Assoli,Micro-Finance,Utilisé,True,0.60679,9.68784
+Kara,Assoli,Assoli 1,COOPEC ADESEM Bafilo,Micro-Finance,Utilisé,True,1.24731,9.3501
+Kara,Doufelgou,Doufelgou 1,Fonds Social de Solidarite,Micro-Finance,Abandonné,False,1.1088,9.76592
+Kara,Assoli,Assoli 1,SUNU Bank Bafilo,Banque,Utilisé,True,1.24659,9.36365
+Kara,Kozah,Kozah 1,Promo Finance Kara,Micro-Finance,Utilisé,True,1.19034,9.54982
+Kara,Kozah,Kozah 1,MUFEC Lama,Micro-Finance,Néant,True,1.19324,9.54562
+Kara,Kozah,Kozah 1,FUCEC Togo Kara,Micro-Finance,Néant,True,1.18956,9.54599
+Kara,Kozah,Kozah 1,Promo Finance Tomdè,Micro-Finance,Utilisé,True,1.1929,9.55894
+Kara,Dankpen,Dankpen 1,Promofinance Guérin Kouka,Micro-Finance,Utilisé,True,0.60791,9.6913
+Kara,Dankpen,Dankpen 1,FUCEC Togo Guérin Kouka,Micro-Finance,Utilisé,True,0.60764,9.69088
+Kara,Dankpen,Dankpen 1,SUNU Bank Guerin kouka,Banque,Utilisé,True,0.60795,9.69099
+Kara,Binah,Binah 1,COOPEC Pagouda,Micro-Finance,Utilisé,True,1.32827,9.75307
+Kara,Dankpen,Dankpen 1,MUCAD Guérin Kouka,Micro-Finance,Utilisé,True,0.60896,9.68666
+Kara,Dankpen,Dankpen 1,UTB Guérin Kouka,Banque,Utilisé,True,0.60821,9.6898
+Kara,Binah,Binah 2,Micro-finance UMECTO,Micro-Finance,Utilisé,True,1.30715,9.65672
+Kara,Binah,Binah 2,FUCEC Togo Ketao,Micro-Finance,Utilisé,True,1.30532,9.66019
+Kara,Binah,Binah 2,SUNU Bank Ketao,Banque,Utilisé,True,1.30922,9.65828
+Kara,Binah,Binah 2,SPT Ketao,Banque,Utilisé,True,1.30825,9.65892
+Kara,Binah,Binah 2,UTB Ketao,Banque,Utilisé,True,1.30898,9.65898
+Kara,Binah,Binah 2,Promofinace de Ketao,Micro-Finance,Utilisé,True,1.31037,9.66117
+Kara,Binah,Binah 1,SPT Pagouda,Banque,Utilisé,True,1.32541,9.75039
+Kara,Binah,Binah 2,Microfinance MUCAD Ketao,Micro-Finance,Utilisé,True,1.30907,9.65765
+Kara,Bassar,Bassar 1,SUNU Bank Bassar,Banque,Utilisé,True,0.78371,9.25814
+Kara,Bassar,Bassar 1,ORABANK Togo Bassar,Banque,Utilisé,True,0.78516,9.25707
+Kara,Bassar,Bassar 1,UTB Bassar,Banque,Utilisé,True,0.7814,9.26225
+Kara,Bassar,Bassar 1,SPT Bassar,Banque,Utilisé,True,0.77932,9.26218
+Kara,Bassar,Bassar 1,COOPEC AD Bassar,Micro-Finance,Utilisé,True,0.77963,9.26469
+Kara,Bassar,Bassar 1,URCLEC Bassar,Micro-Finance,Utilisé,True,0.77897,9.26145
+Kara,Bassar,Bassar 2,COOPEC ADESEM Bangeli,Micro-Finance,Utilisé,True,0.62418,9.4221
+Kara,Bassar,Bassar 2,SPT Bangeli,Banque,Utilisé,True,0.62461,9.4221
+Savanes,Oti,Oti 1,SUNU Mango,Banque,Utilisé,True,0.47046,10.35438
+Kara,Bassar,Bassar 3,COOPEC ADESEM Sankpana,Micro-Finance,Utilisé,True,0.81767,9.4558
+Maritime,Avé,Avé 1,UTB Assahoun,Banque,Utilisé,True,0.90959,6.45648
+Kara,Bassar,Bassar 3,FUCEC Togo Kabou,Micro-Finance,Utilisé,True,0.81096,9.4541
+Kara,Bassar,Bassar 3,BTCI Kabou,Banque,Utilisé,True,0.81314,9.4563
+Kara,Bassar,Bassar 1,COOPEC Bilimon Bassar,Micro-Finance,Utilisé,True,0.78292,9.25905
+Kara,Doufelgou,Doufelgou 3,MEC-D Broukou,Micro-Finance,Utilisé,True,0.92126,9.73844
+Kara,Doufelgou,Doufelgou 1,BTCI Niamtougou,Banque,Utilisé,True,1.10898,9.76527
+Kara,Doufelgou,Doufelgou 1,MEC-D  Siou,Micro-Finance,Utilisé,True,1.20024,9.82142
+Kara,Doufelgou,Doufelgou 2,MEC-D de defale,Micro-Finance,Utilisé,True,1.09052,9.86546
+Kara,Doufelgou,Doufelgou 1,SUNU Bank Niamtougou,Banque,Utilisé,True,1.10731,9.76156
+Kara,Doufelgou,Doufelgou 3,Promofinance Broukou,Micro-Finance,Utilisé,True,0.92158,9.73983
+Kara,Doufelgou,Doufelgou 3,COOPEC Niamtougou,Micro-Finance,Utilisé,True,0.92024,9.74007
+Kara,Doufelgou,Doufelgou 1,COOPEC Niantougou,Micro-Finance,Utilisé,True,1.10684,9.76406
+Kara,Doufelgou,Doufelgou 1,C.P.D.E.N.D.F,Micro-Finance,Utilisé,True,1.11279,9.77343
+Kara,Doufelgou,Doufelgou 1,Mec-d Niamtougou,Micro-Finance,Utilisé,True,1.10744,9.76503
+Kara,Kozah,Kozah 1,Sanlam Kara,Assurance,Utilisé,True,1.19696,9.54529
+Kara,Kozah,Kozah 1,GTA Assurance Gbiyinboua,Assurance,Utilisé,True,1.1891,9.5504
+Kara,Kozah,Kozah 1,Fidelia Assurance Kara,Assurance,Utilisé,True,1.19211,9.54788
+Kara,Kozah,Kozah 1,NSIA Assurance Kara,Assurance,Utilisé,True,1.18785,9.55191
+Kara,Kozah,Kozah 1,Prudential Beneficial Assurance,Assurance,Location,True,1.19172,9.55916
+Kara,Kozah,Kozah 1,SUNU Assurance Vie,Assurance,Utilisé,True,1.18339,9.55861
+Kara,Kozah,Kozah 1,SUNU Assurance Iard,Assurance,Utilisé,True,1.18886,9.55106
+Kara,Bassar,Bassar 1,Fidelia Assurance Bassar,Assurance,Utilisé,True,0.78566,9.26445
+Kara,Bassar,Bassar 1,Promo Finance Bassar,Micro-Finance,Utilisé,True,0.77413,9.26216
+Kara,Kozah,Kozah 1,SUNU Bank Chaminade,Banque,Utilisé,True,1.1834,9.5586
+Kara,Kozah,Kozah 1,BSIC Kara,Banque,Utilisé,True,1.19222,9.54817
+Maritime,Zio,Zio 1,COCEC Djagble,Micro-Finance,Utilisé,True,1.28275,6.25464
+Maritime,Zio,Zio 3,Mutuelle Villageoise de developpement de Avedze,Micro-Finance,Utilisé,True,1.23883,6.67209
+Maritime,Yoto,Yoto 1,SUNU Bank Tagbligbo,Banque,Utilisé,True,1.50128,6.59201
+Maritime,Yoto,Yoto 1,COOPEC-AD Tagbligbo,Micro-Finance,Utilisé,True,1.50026,6.58953
+Maritime,Yoto,Yoto 1,Mutuelle Akwaba Tagbligbo,Micro-Finance,Utilisé,True,1.49574,6.589
+Maritime,Yoto,Yoto 1,UTB Tagbligbo,Banque,Utilisé,True,1.49409,6.58885
+Maritime,Yoto,Yoto 1,Banque Atlantique Tagbligbo,Banque,Utilisé,True,1.51069,6.58045
+Maritime,Yoto,Yoto 1,UMECTO Tagbligbo,Micro-Finance,Utilisé,True,1.49888,6.58951
+Maritime,Yoto,Yoto 2,UMECTO Ahepe,Micro-Finance,Utilisé,True,1.39619,6.60636
+Maritime,Yoto,Yoto 2,Mutuelle Akwaba Agence Annexe,Micro-Finance,Utilisé,True,1.39412,6.60433
+Maritime,Yoto,Yoto 2,FUCEC Togo -Togo (guichet de Tchekpo ),Micro-Finance,Utilisé,True,1.35891,6.53387
+Maritime,Yoto,Yoto 2,Mutuelle Akwaba Guichet de Tchekpo,Micro-Finance,Utilisé,True,1.3604,6.53685
+Maritime,Yoto,Yoto 2,FUCEC Togo Ahépé,Micro-Finance,Utilisé,True,1.39759,6.60575
+Maritime,Yoto,Yoto 1,SPT Tagbligbo,Banque,Utilisé,True,1.50041,6.58847
+Maritime,Yoto,Yoto 2,SPT Ahepe,Banque,Utilisé,True,1.39647,6.60716
+Maritime,Yoto,Yoto 1,COOPEC Kouve,Micro-Finance,Utilisé,True,1.41344,6.66214
+Maritime,Yoto,Yoto 1,Mutuelle Akwaba Kouvé Atsapé,Micro-Finance,Utilisé,True,1.41247,6.66305
+Maritime,Yoto,Yoto 1,FUCEC Togo Tabligbo,Micro-Finance,Utilisé,True,1.50077,6.58708
+Maritime,Zio,Zio 1,FUCEC Togo COOPEC Tsevie,Micro-Finance,Néant,True,1.21603,6.42463
+Maritime,Zio,Zio 2,Cooperative Solidarite Agricole Centre la Pauvreté,Micro-Finance,Utilisé,True,1.12487,6.32168
+Maritime,Zio,Zio 1,UTB Tsevie,Banque,Utilisé,True,1.21285,6.4235
+Maritime,Yoto,Yoto 3,Tsonakle,Micro-Finance,Utilisé,True,1.47652,6.70537
+Maritime,Yoto,Yoto 3,ADCB-CREC,Micro-Finance,Utilisé,True,1.52997,6.67522
+Maritime,Zio,Zio 1,WAGES Tsévié,Micro-Finance,Utilisé,True,1.21129,6.43694
+Maritime,Zio,Zio 1,UMECTO Tsévié,Micro-Finance,Néant,True,1.21074,6.43754
+Maritime,Zio,Zio 1,COOPEC la Fructueuse,Micro-Finance,Utilisé,True,1.27777,6.24892
+Maritime,Zio,Zio 1,Mutuelle Akwaba Adangbe,Micro-Finance,Utilisé,True,1.27156,6.40212
+Maritime,Zio,Zio 1,Mutuelle Akwaba Tsévié,Micro-Finance,Autre,True,1.20896,6.40848
+Maritime,Zio,Zio 1,FECECAV la Grâce,Micro-Finance,Autre,True,1.20968,6.42412
+Maritime,Vo,Vo 4,Coopérative des Femmes Pour L'epargne et de Crédit,Micro-Finance,Utilisé,True,1.43327,6.38335
+Maritime,Avé,Avé 1,SPT Keve,Banque,Utilisé,True,0.92425,6.43546
+Maritime,Bas-Mono,Bas-Mono 1,COOPEC Afagnan,Micro-Finance,Utilisé,True,1.6271,6.49581
+Maritime,Avé,Avé 1,FUCEC Togo Topeme,Micro-Finance,Utilisé,True,0.93074,6.43082
+Maritime,Avé,Avé 1,COOPEC AD Kévé,Micro-Finance,Utilisé,True,0.92525,6.43454
+Maritime,Avé,Avé 2,FECECAV D Assiame,Micro-Finance,Utilisé,True,1.05783,6.24217
+Maritime,Avé,Avé 1,FECECAV Solidarite,Micro-Finance,Utilisé,True,0.89424,6.56652
+Maritime,Avé,Avé 2,FUCEC Togo Akepe,Micro-Finance,Utilisé,True,1.05744,6.24133
+Maritime,Avé,Avé 2,COOPAD Transformation,Micro-Finance,Utilisé,True,0.98517,6.3753
+Maritime,Zio,Zio 1,Mutuelle Akwaba Gbatope,Micro-Finance,Utilisé,True,1.25902,6.44441
+Maritime,Vo,Vo 3,Microfinance Tso Nakle,Micro-Finance,Utilisé,True,1.5689,6.47332
+Maritime,Zio,Zio 1,SUNU Bank Tsevie,Banque,Utilisé,True,1.2117,6.41716
+Savanes,Cinkassé,Cinkassé 1,2A.D.A.D,Micro-Finance,Utilisé,True,0.0243,11.09988
+Maritime,Avé,Avé 1,COECEPT Assahoun,Micro-Finance,Utilisé,True,0.90877,6.45986
+Maritime,Avé,Avé 1,FUCEC Togo Dzolo,Micro-Finance,Utilisé,True,0.89136,6.37567
+Maritime,Avé,Avé 1,CECAV la Grace,Micro-Finance,Utilisé,True,0.90901,6.45912
+Maritime,Avé,Avé 2,COOPEC la Lumière,Micro-Finance,Néant,True,1.04309,6.25683
+Maritime,Avé,Avé 1,ORABANK Assahoun,Banque,Utilisé,True,0.91019,6.45489
+Maritime,Avé,Avé 1,FUCEC Togo Assahoun,Micro-Finance,Utilisé,True,0.91453,6.45034
+Maritime,Zio,Zio 2,Mutuelle Benit,Micro-Finance,Utilisé,True,1.13556,6.2968
+Maritime,Zio,Zio 1,SPT Tsevie,Banque,Utilisé,True,1.20992,6.42408
+Maritime,Zio,Zio 1,COOPEC Fidélité,Micro-Finance,Autre,True,1.20671,6.43365
+Maritime,Zio,Zio 2,Mutuelle Dignité Humaine,Micro-Finance,Autre,True,1.11282,6.34269
+Maritime,Zio,Zio 4,Mutuelle Akwaba Avérétoe,Micro-Finance,Utilisé,True,1.10328,6.6028
+Maritime,Zio,Zio 4,FUSECAB,Micro-Finance,Utilisé,True,1.10144,6.60339
+Maritime,Zio,Zio 4,COOPEC Gape Centre,Micro-Finance,Utilisé,True,1.10373,6.60197
+Maritime,Zio,Zio 2,Centre d'assistance Juridique et Economique Aux Femmes,Micro-Finance,Néant,True,1.12529,6.28914
+Maritime,Zio,Zio 3,CECAv Prosperite,Micro-Finance,Utilisé,True,1.1682,6.67126
+Maritime,Zio,Zio 3,FUCEC Togo Agbelouvé,Micro-Finance,Utilisé,True,1.16765,6.67201
+Maritime,Zio,Zio 3,SPEC OIC Togo Agbelouvé,Micro-Finance,Inacheve,False,1.16866,6.66879
+Maritime,Zio,Zio 1,COOPEC Tsevie Guichet Djagblé,Micro-Finance,Utilisé,True,1.28408,6.25486
+Maritime,Zio,Zio 3,Caisse Communautaire,Micro-Finance,Sans Local,True,1.18621,6.62007
+Maritime,Yoto,Yoto 3,ECOBANK Assou kondji,Banque,Utilisé,True,1.56732,6.62578
+Maritime,Vo,Vo 2,Mutuelle ASJD Bdougbé,Micro-Finance,Utilisé,True,1.51331,6.23752
+Maritime,Bas-Mono,Bas-Mono 2,FUCEC Togo AttiTogon,Micro-Finance,Utilisé,True,1.66312,6.41678
+Maritime,Vo,Vo 1,COOPEC-AD Novissikome,Micro-Finance,Utilisé,True,1.52385,6.34078
+Maritime,Vo,Vo 1,ORABANK Novissikomé,Banque,Utilisé,True,1.52669,6.33727
+Maritime,Vo,Vo 1,SPT Commandant condji,Banque,Utilisé,True,1.52951,6.33506
+Maritime,Vo,Vo 1,COOPEC CECEAO,Micro-Finance,Utilisé,True,1.52427,6.33926
+Maritime,Vo,Vo 3,FESEC-Togo,Micro-Finance,Utilisé,True,1.56875,6.47417
+Maritime,Lacs,Lacs 2,SPT Aklakou,Banque,Utilisé,True,1.70977,6.33518
+Maritime,Vo,Vo 1,Mutuelle Kekeli,Micro-Finance,Utilisé,True,1.52994,6.33354
+Maritime,Vo,Vo 1,SUNU Bank Vogan,Banque,Utilisé,True,1.52904,6.33552
+Savanes,Cinkassé,Cinkassé 1,COOPEC AD Boadé,Micro-Finance,Utilisé,True,0.01774,11.09978
+Maritime,Vo,Vo 1,UTB Novissikomé,Banque,Utilisé,True,1.52352,6.34053
+Maritime,Vo,Vo 1,FECECAV-MECA,Micro-Finance,Utilisé,True,1.52394,6.34049
+Maritime,Vo,Vo 4,Coopérative d'épargne et de Credit du Personnel de la SNPT,Micro-Finance,Utilisé,True,1.40938,6.36701
+Maritime,Vo,Vo 4,FUCEC Togo - COOPEC CECEAO,Micro-Finance,Utilisé,True,1.41459,6.3631
+Maritime,Vo,Vo 4,UMECTO Kekeli,Micro-Finance,Utilisé,True,1.41645,6.36552
+Maritime,Lacs,Lacs 2,Mutuelle Kekeli,Micro-Finance,Utilisé,True,1.7084,6.33376
+Maritime,Lacs,Lacs 4,MECA Anfoin,Micro-Finance,Utilisé,True,1.6068,6.32886
+Maritime,Lacs,Lacs 4,SPT Anfoin,Banque,Utilisé,True,1.60688,6.3287
+Maritime,Lacs,Lacs 4,COOPEC-nyameneko,Micro-Finance,Utilisé,True,1.60757,6.33015
+Maritime,Lacs,Lacs 1,FUCEC Togo Aného,Micro-Finance,Utilisé,True,1.6104,6.23774
+Maritime,Lacs,Lacs 1,SPT Aneho,Banque,Utilisé,True,1.59739,6.22813
+Maritime,Lacs,Lacs 3,COCPAV Dague,Micro-Finance,Utilisé,True,1.40561,6.20032
+Maritime,Lacs,Lacs 3,COOPEC Kekeli,Micro-Finance,Utilisé,True,1.39254,6.18337
+Maritime,Lacs,Lacs 3,COOPEC Nyameneko /fusec,Micro-Finance,Utilisé,True,1.39683,6.19223
+Maritime,Lacs,Lacs 1,UTB Aneho,Banque,Néant,True,1.60323,6.23272
+Plateaux,Moyen-Mono,Moyen-Mono 2,OIC Kpékplémé,Banque,Néant,True,1.62571,7.33179
+Maritime,Lacs,Lacs 3,WAGES Agbodrafo,Micro-Finance,Utilisé,True,1.48168,6.20972
+Savanes,Tandjoaré,Tandjoaré 1,COOPEC Nataan de Bombouaka,Micro-Finance,Néant,True,0.20876,10.69407
+Maritime,Lacs,Lacs 3,FUCEC Togo Kpémé,Micro-Finance,Utilisé,True,1.5046,6.2139
+Maritime,Lacs,Lacs 3,SPT Agbodrafo,Banque,Néant,True,1.47783,6.2079
+Maritime,Lacs,Lacs 1,MECA Amadoté,Micro-Finance,Utilisé,True,1.6145,6.23858
+Plateaux,Ogou,Ogou 1,COOPEC AD Agbonou,Micro-Finance,Utilisé,True,1.15115,7.51371
+Maritime,Lacs,Lacs 1,ECOBANK Carrefour,Banque,Utilisé,True,1.61226,6.23636
+Maritime,Lacs,Lacs 1,SUNU Bank Gériko,Banque,Utilisé,True,1.61619,6.23843
+Maritime,Lacs,Lacs 1,ORABANK Gériko,Banque,Utilisé,True,1.62349,6.24015
+Maritime,Lacs,Lacs 1,BTCI Gériko ,Banque,Utilisé,True,1.62364,6.24038
+Maritime,Lacs,Lacs 1,WAGES le Sang kongni,Micro-Finance,Utilisé,True,1.62038,6.23948
+Maritime,Lacs,Lacs 1,NSIA Assurance banque Aneho,Banque,Néant,True,1.62149,6.23995
+Maritime,Zio,Zio 1,ORABANK Tsevie,Banque,Utilisé,True,1.21197,6.43402
+Maritime,Zio,Zio 3,SPT Agbélouvé,Banque,Utilisé,True,1.16784,6.67175
+Maritime,Zio,Zio 1,Division des Operations Douanieres de la Region Maritime,Micro-Finance,Utilisé,True,1.21621,6.43216
+Plateaux,Amou,Amou 3,COMEC Temedja,Micro-Finance,Utilisé,True,1.05895,7.51883
+Plateaux,Ogou,Ogou 1,BOA Gnagna,Banque,Utilisé,True,1.14123,7.51905
+Plateaux,Ogou,Ogou 1,Microfinance Millenium Kpotame,Micro-Finance,Utilisé,True,1.15288,7.50914
+Plateaux,Ogou,Ogou 1,CECAV Agbonou,Micro-Finance,Utilisé,True,1.15023,7.51646
+Plateaux,Ogou,Ogou 2,COOPEC Ilema de Akpare,Micro-Finance,En construction,False,1.31467,7.47477
+Plateaux,Est-Mono,Est-Mono 3,COOPEC Nyamassila,Micro-Finance,Utilisé,True,1.19196,7.98759
+Plateaux,Est-Mono,Est-Mono 1,COOPEC Elavagnon,Micro-Finance,Utilisé,True,1.28472,7.95583
+Plateaux,Wawa,Wawa 1,COOPEC-AD Badou,Micro-Finance,Utilisé,True,0.6088,7.58543
+Plateaux,Wawa,Wawa 1,MGPCC dekawowo,Micro-Finance,Utilisé,True,0.6096,7.59274
+Plateaux,Wawa,Wawa 1,FUCEC Togo  COOPEC Novissi,Micro-Finance,Utilisé,True,0.61277,7.58479
+Plateaux,Wawa,Wawa 1,ORABANK Badou,Banque,Utilisé,True,0.60652,7.58498
+Plateaux,Est-Mono,Est-Mono 2,COOPEC Katchere,Micro-Finance,Utilisé,True,1.35048,8.10741
+Plateaux,Ogou,Ogou 2,Assciation Oressan,Micro-Finance,Utilisé,True,1.16003,7.43261
+Savanes,Cinkassé,Cinkassé 1,BSIC Cinkanssé,Banque,Utilisé,True,0.01385,11.10714
+Plateaux,Moyen-Mono,Moyen-Mono 1,FUCEC Togo Tado,Micro-Finance,Utilisé,True,1.59169,7.14602
+Plateaux,Ogou,Ogou 4,SPEC OIC Togo Atchankoe,Micro-Finance,Utilisé,True,1.4855,7.4313
+Plateaux,Ogou,Ogou 4,Association Villageoise pour l'Epargne et le Credit,Micro-Finance,Utilisé,True,1.4851,7.43069
+Plateaux,Ogou,Ogou 3,SPEC OIC-Togo Akpaka,Micro-Finance,Utilisé,True,1.16369,7.31455
+Plateaux,Haho,Haho 1,FECECAV Kpele,Micro-Finance,Utilisé,True,1.18412,6.85776
+Plateaux,Ogou,Ogou 3,COOPEC Ilema de Kpota,Micro-Finance,Utilisé,True,1.16659,7.31842
+Plateaux,Ogou,Ogou 3,COOPEC Novissi de l'Affaire sociale,Micro-Finance,Utilisé,True,1.16516,7.31563
+Plateaux,Danyi,Danyi 1,FECECAV Danyi Microfinance,Micro-Finance,Utilisé,True,0.69308,7.20205
+Plateaux,Danyi,Danyi 1,FUCEC Togo Apéyémé,Micro-Finance,Utilisé,True,0.69106,7.19837
+Savanes,Cinkassé,Cinkassé 1,UTB Boadé,Banque,Utilisé,True,0.01602,11.10266
+Plateaux,Moyen-Mono,Moyen-Mono 1,SPEC OIC Togo Kpohizouhoe,Micro-Finance,Utilisé,True,1.61514,7.02382
+Plateaux,Moyen-Mono,Moyen-Mono 2,COOPEC ADMEGNONTCHIHOE,Micro-Finance,Utilisé,True,1.62768,7.32593
+Plateaux,Moyen-Mono,Moyen-Mono 2,FUCEC Togo Kpékplémé,Micro-Finance,Utilisé,True,1.62395,7.32848
+Savanes,Cinkassé,Cinkassé 1,SPT Boadé,Banque,Utilisé,True,0.01245,11.11086
+Plateaux,Moyen-Mono,Moyen-Mono 1,SPEC OIC Togo Tado,Micro-Finance,Utilisé,True,1.59303,7.14335
+Plateaux,Agou,Agou 1,FUCEC Togo  COOPEC CFAE,Micro-Finance,Utilisé,True,0.71535,6.85106
+Plateaux,Agou,Agou 1,CECAV Espoir,Micro-Finance,Utilisé,True,0.71854,6.84757
+Plateaux,Agou,Agou 1,SPT Agou-gare,Banque,Utilisé,True,0.71638,6.84403
+Plateaux,Akébou,Akébou 1,FECECAV Kougnohou,Micro-Finance,Néant,True,0.78919,7.65215
+Plateaux,Akébou,Akébou 1,FUCEC Togo Kougnohou,Micro-Finance,Utilisé,True,0.79122,7.65474
+Plateaux,Ogou,Ogou 2,SPEC OIC Akpare,Micro-Finance,Utilisé,True,1.32249,7.47279
+Plateaux,Kloto,Kloto 3,CECAV Avenir de Kouma-adame,Micro-Finance,Utilisé,True,0.59637,6.97569
+Plateaux,Kloto,Kloto 2,CECAV Lavie,Micro-Finance,Utilisé,True,0.67644,7.01057
+Plateaux,Haho,Haho 4,Mutuelle Rhema,Micro-Finance,Utilisé,True,1.16107,7.17516
+Plateaux,Kloto,Kloto 3,CECAV Avenir Tomégbé,Micro-Finance,Utilisé,True,0.55898,6.95429
+Plateaux,Kloto,Kloto 1,IB Bank Togo,Banque,Utilisé,True,0.63448,6.92137
+Plateaux,Kloto,Kloto 1,Sebaders Kpalime,Micro-Finance,Fermé,False,0.62085,6.92102
+Savanes,Cinkassé,Cinkassé 1,NSIA Banque Cinkanssé,Banque,Néant,True,0.01756,11.10069
+Plateaux,Haho,Haho 4,COOPEC Car-naolou,Micro-Finance,Utilisé,True,1.16444,7.17311
+Plateaux,Haho,Haho 4,OIC-Togo,Micro-Finance,Utilisé,True,1.16566,7.17264
+Plateaux,Haho,Haho 4,FECECAV Zongo,Micro-Finance,Utilisé,True,1.16543,7.17436
+Plateaux,Kloto,Kloto 1,SOGEMEF Lomnava,Micro-Finance,Utilisé,True,0.63441,6.92153
+Plateaux,Kloto,Kloto 1,MGPCC dekawowo,Micro-Finance,En construction,False,0.62419,6.91831
+Plateaux,Kloto,Kloto 1,ECOBANK Fiakomé,Banque,Utilisé,True,0.63225,6.90705
+Plateaux,Kloto,Kloto 1,COMEC Kpalime,Micro-Finance,Utilisé,True,0.62955,6.9131
+Plateaux,Kloto,Kloto 1,SUNU Bank Kpalime,Banque,Utilisé,True,0.63249,6.91257
+Plateaux,Kloto,Kloto 1,UTB Kpalime,Banque,Utilisé,True,0.63299,6.90682
+Savanes,Cinkassé,Cinkassé 1,ORABANK Cinkanssé,Banque,Utilisé,True,0.02152,11.09737
+Plateaux,Kloto,Kloto 1,CECAV Avenir Kpalimé,Micro-Finance,Utilisé,True,0.62608,6.91584
+Plateaux,Anié,Anié 2,Pratfig,Micro-Finance,Utilisé,True,1.438,7.73808
+Savanes,Tône,Tône 1,SUNU Bank Dapaong,Banque,Utilisé,True,0.19986,10.88376
+Plateaux,Anié,Anié 1,COOPEC AD Anié,Micro-Finance,Utilisé,True,1.19361,7.75759
+Plateaux,Anié,Anié 1,WAGES Anié,Micro-Finance,Utilisé,True,1.19323,7.75757
+Savanes,Cinkassé,Cinkassé 1,COOPEC-SIFA de Languitaba,Micro-Finance,Utilisé,True,0.01055,11.10196
+Plateaux,Anié,Anié 1,FUCEC Togo Anié,Micro-Finance,Utilisé,True,1.19333,7.76344
+Savanes,Cinkassé,Cinkassé 1,BTCI Boadé,Banque,Utilisé,True,0.01247,11.11061
+Plateaux,Anié,Anié 1,Assilassime Solidarité,Micro-Finance,Utilisé,True,1.19659,7.76358
+Plateaux,Kloto,Kloto 1,COOPEC AD Kpalimé,Micro-Finance,Utilisé,True,0.63223,6.9078
+Plateaux,Kloto,Kloto 1,ORABANK Kpalimé,Banque,Utilisé,True,0.63005,6.90107
+Plateaux,Amou,Amou 2,COOPEC AD Amou Oblo,Micro-Finance,Utilisé,True,0.86918,7.39148
+Plateaux,Amou,Amou 2,CECAV Fidélité Amou Oblo,Micro-Finance,Utilisé,True,0.86733,7.3882
+Plateaux,Amou,Amou 2,MGPCCdekahoho,Micro-Finance,Utilisé,True,0.86746,7.3875
+Plateaux,Amou,Amou 2,COOPEC Enyo Amou Oblo,Micro-Finance,Utilisé,True,0.86784,7.38826
+Plateaux,Kpélé,Kpélé 1,UTB Tetsefi,Banque,Utilisé,True,0.73133,7.13204
+Plateaux,Kpélé,Kpélé 1,FECECAV Wetsi,Micro-Finance,Utilisé,True,0.72889,7.12849
+Savanes,Cinkassé,Cinkassé 2,Guichet de Sam-naba,Micro-Finance,Utilisé,True,0.16424,11.0671
+Plateaux,Kpélé,Kpélé 1,COOPEC Enyo Tsèfi,Micro-Finance,Utilisé,True,0.73166,7.1332
+Plateaux,Kpélé,Kpélé 2,FECECAV Hassoupe,Micro-Finance,Utilisé,True,0.74751,7.17226
+Plateaux,Kpélé,Kpélé 2,COOPEC Enyo,Micro-Finance,Utilisé,True,0.80311,7.28201
+Plateaux,Kpélé,Kpélé 1,Cooperative Mesona,Micro-Finance,Utilisé,True,0.73013,7.13799
+Plateaux,Kpélé,Kpélé 2,FECECAV-fidelité,Micro-Finance,Utilisé,True,0.80065,7.27673
+Plateaux,Haho,Haho 1,FECECAV Agence Notsé,Micro-Finance,Utilisé,True,1.16515,6.94946
+Plateaux,Haho,Haho 1,URCLEC Agence Notsé,Micro-Finance,Utilisé,True,1.16881,6.95109
+Plateaux,Haho,Haho 1,SPEC OIC-Togo Tegbe,Micro-Finance,Utilisé,True,1.17014,6.95416
+Plateaux,Haho,Haho 1,COOPEC AD Notsé,Micro-Finance,Utilisé,True,1.17187,6.95337
+Plateaux,Haho,Haho 1,FUCEC Togo Adimé,Micro-Finance,Utilisé,True,1.17116,6.94846
+Plateaux,Haho,Haho 1,WAGES Notse,Micro-Finance,Utilisé,True,1.1689,6.94837
+Plateaux,Haho,Haho 1,COECEPT Notsé,Micro-Finance,Utilisé,True,1.1749,6.94739
+Plateaux,Haho,Haho 1,FINAM Notsé,Micro-Finance,Utilisé,True,1.17495,6.94699
+Plateaux,Haho,Haho 1,CERCIF Notsé,Micro-Finance,Utilisé,True,1.17493,6.94684
+Plateaux,Kpélé,Kpélé 1,CECAV Fidelite Bodzé,Micro-Finance,Utilisé,True,0.91045,7.08973
+Plateaux,Haho,Haho 1,Rhema Notsé,Micro-Finance,Utilisé,True,1.16999,6.94854
+Plateaux,Haho,Haho 1,UTB Notse,Banque,Utilisé,True,1.17345,6.94396
+Plateaux,Haho,Haho 1,ORABANK Notse,Banque,Utilisé,True,1.16763,6.94866
+Plateaux,Haho,Haho 1,SUNU Bank Notse,Banque,Utilisé,True,1.16879,6.94917
+Plateaux,Haho,Haho 1,SPEC OIC Togo Hahomegbé,Micro-Finance,Utilisé,True,1.02688,6.93249
+Plateaux,Anié,Anié 1,SUNU Bank Anié,Banque,Utilisé,True,1.19152,7.80818
+Savanes,Tône,Tône 1,Banque Atlantique Kpegui,Banque,Utilisé,True,0.20303,10.86553
+Plateaux,Anié,Anié 1,Banque Atlantique Anié,Banque,Utilisé,True,1.19268,7.76486
+Plateaux,Anié,Anié 1,ORABANK Anié,Banque,Utilisé,True,1.193,7.75884
+Plateaux,Agou,Agou 1,COOPEC CFAE,Micro-Finance,Utilisé,True,0.79652,6.79521
+Plateaux,Ogou,Ogou 1,SPT Atakpame,Banque,Utilisé,True,1.12474,7.53261
+Plateaux,Agou,Agou 1,CECAV Espoir Avetonou,Micro-Finance,Utilisé,True,0.79533,6.79603
+Plateaux,Anié,Anié 1,UTB Anié,Banque,Utilisé,True,1.19341,7.76181
+Plateaux,Haho,Haho 2,COOPEC AD Asrama,Micro-Finance,Utilisé,True,1.40593,7.00334
+Plateaux,Haho,Haho 2,SPEC OIC Asrama,Micro-Finance,Utilisé,True,1.40365,7.00301
+Plateaux,Agou,Agou 1,CECAV Espoir de Kati,Micro-Finance,Utilisé,True,0.84901,6.89052
+Plateaux,Ogou,Ogou 1,Service Assurance COOPEC Novissi,Assurance,Utilisé,True,1.12878,7.52426
+Plateaux,Ogou,Ogou 1,COOPEC Novissi de Lomnava,Micro-Finance,Utilisé,True,1.12875,7.52437
+Plateaux,Ogou,Ogou 1,SPT Agbonou,Banque,Utilisé,True,1.14846,7.52439
+Plateaux,Haho,Haho 1,GTA Assurance Notse,Assurance,Utilisé,True,1.17495,6.94705
+Plateaux,Anié,Anié 1,COOPEC Ilema d'Assigamé,Micro-Finance,Utilisé,True,1.19353,7.76074
+Plateaux,Ogou,Ogou 1,Caisse Nationale de Securite Sociale,Assurance,Néant,True,1.14157,7.51966
+Plateaux,Ogou,Ogou 1,Fidelia Assurance Agbonou,Assurance,Néant,True,1.14689,7.51836
+Plateaux,Ogou,Ogou 1,Institut Nationale d'Assurance Maladie,Assurance,Néant,True,1.15142,7.51323
+Plateaux,Ogou,Ogou 1,Sanlam Agbonou,Assurance,Fermé,False,1.14932,7.52578
+Plateaux,Ogou,Ogou 1,BIA Togo Togo,Banque,Utilisé,True,1.12185,7.53313
+Plateaux,Ogou,Ogou 1,ECOBANK Houdou,Banque,Utilisé,True,1.12278,7.53157
+Plateaux,Ogou,Ogou 1,Banque Atlantique Houdou,Banque,Utilisé,True,1.12213,7.53183
+Plateaux,Ogou,Ogou 1,Microfinance dekawowo,Micro-Finance,Utilisé,True,1.12393,7.5302
+Plateaux,Ogou,Ogou 1,NSIA Assurance Gnagna,Assurance,Utilisé,True,1.14101,7.51902
+Plateaux,Ogou,Ogou 1,SUNU Bank Gnagna,Banque,Utilisé,True,1.13845,7.52243
+Plateaux,Amou,Amou 1,Trésorerie d'Amlame,Micro-Finance,Utilisé,True,0.9061,7.46914
+Plateaux,Danyi,Danyi 2,FECECAV Duamenyo Elavanyo,Micro-Finance,Utilisé,True,0.70554,7.28161
+Savanes,Kpendjal-Ouest,Kpendjal-Ouest 2,UMECTO Papri,Micro-Finance,Utilisé,True,0.42381,10.99299
+Savanes,Kpendjal-Ouest,Kpendjal-Ouest 2,FUCEC Togo Namondjoga,Micro-Finance,Fermé,False,0.39398,10.89379
+Savanes,Tandjoaré,Tandjoaré 2,COOPEC SIFA de Nano,Micro-Finance,Utilisé,True,0.10843,10.70582
+Savanes,Tandjoaré,Tandjoaré 2,CMECS Sikbaog,Micro-Finance,Utilisé,True,0.08356,10.63894
+Savanes,Oti-Sud,Oti-Sud 1,SPT Kando,Banque,Utilisé,True,0.74254,10.32694
+Savanes,Tandjoaré,Tandjoaré 2,COOPEC Nataan Agence de Nano,Micro-Finance,Utilisé,True,0.11325,10.70139
+Savanes,Tandjoaré,Tandjoaré 2,Amis Financer des Pauvres,Micro-Finance,Utilisé,True,0.11068,10.70231
+Savanes,Oti,Oti 1,COOPEC Lumiere Mango,Micro-Finance,Utilisé,True,0.46892,10.3516
+Savanes,Cinkassé,Cinkassé 1,CEMEC Cinkanssé,Micro-Finance,Utilisé,True,0.02933,11.09668
+Savanes,Tône,Tône 3,La Caisse Mutuelle d'epargne et de Credit de LoTogou,Micro-Finance,Utilisé,True,0.02503,10.7983
+Savanes,Cinkassé,Cinkassé 1,V.I.Z.A- Togo,Micro-Finance,Utilisé,True,0.02525,11.09612
+Savanes,Cinkassé,Cinkassé 1,COOPEC Lando,Micro-Finance,Utilisé,True,0.02115,11.09718
+Savanes,Kpendjal-Ouest,Kpendjal-Ouest 1,COOPEC SIFA de Naki Est Centre,Micro-Finance,Utilisé,True,0.38463,10.72989
+Savanes,Oti,Oti 1,ORABANK Mango,Banque,Utilisé,True,0.47547,10.35716
+Savanes,Oti,Oti 2,FUCEC Togo Barkoissi,Micro-Finance,Autre,True,0.30194,10.55806
+Savanes,Oti,Oti 1,COOPEC SIFA Mango,Micro-Finance,Utilisé,True,0.4693,10.34806
+Savanes,Oti,Oti 1,UTB Mango,Banque,Utilisé,True,0.46937,10.3524
+Savanes,Oti,Oti 2,COOPEC SIFA Barkoissi ,Micro-Finance,Utilisé,True,0.30549,10.55708
+Savanes,Oti,Oti 2,U-CMECS Lantodim,Micro-Finance,Utilisé,True,0.30326,10.5556
+Savanes,Kpendjal-Ouest,Kpendjal-Ouest 2,U-CMECS (union des Caisses Mutuelles D'epargne et de Crédit des Savanes),Micro-Finance,Utilisé,True,0.4358,10.95397
+Savanes,Cinkassé,Cinkassé 1,Banque Atlantique Quartier Samango,Banque,Utilisé,True,0.01654,11.10257
+Savanes,Cinkassé,Cinkassé 1,ECOBANK Cinkanssé,Banque,Néant,True,0.01625,11.10216
+Savanes,Cinkassé,Cinkassé 1,CORIS Bank Cinkanssé ,Banque,Utilisé,True,0.0227,11.09705
+Savanes,Cinkassé,Cinkassé 1,BOA Cinkanssé,Banque,Utilisé,True,0.02599,11.09635
+Savanes,Cinkassé,Cinkassé 2,V.I.Z.A- Togo Natinga,Micro-Finance,Utilisé,True,0.11642,11.03596
+Savanes,Tandjoaré,Tandjoaré 1,SPT Bombouaka,Banque,Utilisé,True,0.20761,10.69954
+Savanes,Tandjoaré,Tandjoaré 1,UMECTO Bombouaka,Micro-Finance,Néant,True,0.2081,10.70013
+Savanes,Tandjoaré,Tandjoaré 1,U-CMECS Tamou,Micro-Finance,Néant,True,0.17473,10.59632
+Savanes,Tône,Tône 1,ORABANK Nassablé,Banque,Utilisé,True,0.20038,10.877
+Savanes,Tône,Tône 1,Microfinance U-CMECS,Micro-Finance,Utilisé,True,0.19678,10.87544
+Savanes,Tône,Tône 1,Incha Allah Finance,Micro-Finance,Location,True,0.19866,10.8702
+Savanes,Tône,Tône 1,Microfinance AFP,Micro-Finance,Utilisé,True,0.20156,10.86974
+Savanes,Tône,Tône 1,Direction COOPEC- SIFA,Micro-Finance,Utilisé,True,0.19992,10.86534
+Savanes,Tône,Tône 1,UMECTO Napiengue,Micro-Finance,Utilisé,True,0.20346,10.86282
+Savanes,Oti-Sud,Oti-Sud 1,U-CMECS Sagbiebou,Micro-Finance,Utilisé,True,0.64511,10.24595
+Savanes,Oti-Sud,Oti-Sud 1,FUCEC Togo -Togo (COOPEC Lumière Agence Kando ),Micro-Finance,Utilisé,True,0.74503,10.33152
+Savanes,Oti-Sud,Oti-Sud 1,COOPEC SIFA Gando Centre,Micro-Finance,Utilisé,True,0.74838,10.33392
+Savanes,Tône,Tône 1,FUCEC Togo  COOPEC Lando,Micro-Finance,Utilisé,True,0.19356,10.88203
+Savanes,Tône,Tône 1,COOPEC AD Dapaong,Micro-Finance,Utilisé,True,0.20621,10.86757
+Savanes,Tône,Tône 1,CECAV Dapaong,Micro-Finance,Utilisé,True,0.20455,10.86211
+Savanes,Oti,Oti 2,SPT Barkoissi,Banque,Utilisé,True,0.30455,10.55543
+Savanes,Oti,Oti 1,SPT Mango,Banque,Utilisé,True,0.47198,10.35719
+Savanes,Oti,Oti 1,Transfert d'argent Al-izza,Micro-Finance,Utilisé,True,0.47042,10.3542
+Savanes,Oti-Sud,Oti-Sud 2,COOPEC SIFA Takpamba,Micro-Finance,Utilisé,True,0.57885,9.97087
+Savanes,Tône,Tône 1,ECOBANK Dapaong,Banque,Utilisé,True,0.20213,10.86944
+Savanes,Tône,Tône 1,BSIC Dapaong,Banque,Utilisé,True,0.20053,10.87648
+Savanes,Tône,Tône 1,UTB Dapaong,Banque,Utilisé,True,0.20543,10.86078
+Savanes,Tône,Tône 1,BTCI Worgou,Banque,Utilisé,True,0.20243,10.85013
+Maritime,Golfe,Golfe 1,Direction générale Ecobank Togo,Banque,Utilise,True,1.25856,6.13598
+Plateaux,Kloto,Kloto 1,FUCEC Kpalime,Micro-Finance,N/a,True,0.63341,6.91448

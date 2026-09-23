@@ -1,0 +1,20 @@
+{
+  "population_total_fichier": 8095498,
+  "population_somme_prefectures": 8095498,
+  "ecart_ancien_tableau_vs_nouveau_fichier": 0,
+  "nb_communes_population": 117,
+  "communes_pop_agregee_danyi": "Danyi 1 et Danyi 2 sont fusionnées dans le fichier RGPH-5 (population non séparable) → exclues des ratios communaux",
+  "agents_total": 19788,
+  "finance_total_lignes": 738,
+  "finance_hors_service_exclus": 13,
+  "agents_pref_concordance_texte_vs_polygone": 0.9964,
+  "agents_hors_polygone": 49,
+  "communes_polygones": 117,
+  "communes_nommees": 117,
+  "communes_purete_min": 0.89,
+  "communes_avec_population": 115,
+  "communes_mm_seul": 22,
+  "agents_par_prefecture_somme": 19788,
+  "finance_en_service_somme": 725,
+  "prefectures": 39
+}
