@@ -1,6 +1,6 @@
 # Observatoire de l'inclusion numérique et financière du Togo
 
-Tableau de bord interactif (Python / Streamlit) pour le **Data Challenge Togo AI Lab — Économie numérique | Défi 2**.
+Tableau de bord interactif (Python / Streamlit) pour le **Data Challenge Togo AI Lab — Économie numérique | Défi 1 | Challenge 2**.
 Il mesure l'adoption du numérique (Internet, marché télécom) et le rôle du mobile money dans l'inclusion financière, puis désigne
 les préfectures où agir en premier.
 

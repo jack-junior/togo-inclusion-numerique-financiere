@@ -1,4 +1,4 @@
-"""Observatoire de l'inclusion numérique et financière du Togo — Togo AI Lab · Économie numérique | Défi 2.
+"""Observatoire de l'inclusion numérique et financière du Togo — Togo AI Lab · Économie numérique | Défi 1 | Challenge 2.
 Lancer : streamlit run app.py
 """
 import streamlit as st
