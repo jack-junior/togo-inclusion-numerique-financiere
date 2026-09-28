@@ -14,12 +14,14 @@ METRICS = {
     "Population (RGPH-5 2022)": ("pop_2022", "habitants", 0, False),
 }
 COM_METRICS = {k: v for k, v in METRICS.items() if v[0] in ("hab_par_agent", "agents_pour_1000hab", "hab_par_point_fin", "pop_2022")}
+COM_METRICS["Distance au point financier le plus proche"] = ("dist_fin_km", "km à vol d'oiseau", 1, True)
 HELP = {
     "hab_par_agent": "Plus la valeur est élevée, plus un agent dessert d'habitants : accès plus difficile.",
     "agents_pour_1000hab": "Plus la valeur est élevée, plus l'offre mobile money est dense.",
     "fin_pour_100000hab": "Plus la valeur est élevée, plus l'offre bancaire, de microfinance, d'assurance et de mutuelles est dense.",
     "hab_par_point_fin": "Plus la valeur est élevée, plus un point financier dessert d'habitants : accès plus difficile.",
     "pop_2022": "Population résidente au recensement de 2022.",
+    "dist_fin_km": "Distance à vol d'oiseau entre le centroïde de la commune et le point financier en service le plus proche (banque, microfinance, assurance, mutuelle). N'inclut pas les agents mobile money.",
 }
 
 
@@ -76,26 +78,15 @@ def render():
         df["nom"] = df["prefecture"]; geo = D["geo_pref"]; fkey = "id"
         xs, ys = _bounds(geo, set(df["prefecture"]), "prefecture")
     else:
-        C = D["commune"].copy()
-        a, f = core.selected_points()
-        # recalcul des comptes communaux selon les filtres opérateur/type
-        C["agents_total"] = C["commune"].map(a.groupby("commune").size()).fillna(0).astype(int)
-        f2 = f[f["categorie"].isin(["Banque", "Micro-Finance"])]
-        C["fin_bancaire"] = C["commune"].map(f2.groupby("commune").size()).fillna(0).astype(int)
-        C["fin_total"] = C["commune"].map(f.groupby("commune").size()).fillna(0).astype(int)
-        C["hab_par_agent"] = C["pop_2022"] / C["agents_total"].replace(0, np.nan)
-        C["agents_pour_1000hab"] = C["agents_total"] / C["pop_2022"] * 1000
-        C["hab_par_point_fin"] = C["pop_2022"] / C["fin_total"].replace(0, np.nan)
-        C["mm_seul"] = (C["agents_total"] > 0) & (C["fin_bancaire"] == 0)
-        m = C["region"].isin(core.regs())
-        if st.session_state["f_prefs"]:
-            m &= C["prefecture"].isin(st.session_state["f_prefs"])
-        df = C[m].copy(); df["nom"] = df["commune"]; geo = D["geo_com"]; fkey = "properties.commune"
+        C = core.build_commune_table(use_filters=True)
+        df = core.visible_communes(C).copy()
+        df["nom"] = df["commune"]; geo = D["geo_com"]; fkey = "properties.commune"
         xs, ys = _bounds(geo, set(df["commune"]), "commune")
 
     z = df[col]
+    ratio_undef = " Les zones grises n'ont aucun agent ou point : le ratio n'est pas défini." if high_bad and col != "dist_fin_km" else ""
     message(f"{label} : {'les zones sombres sont les moins bien servies' if high_bad else 'les zones sombres sont les mieux dotées'}",
-            HELP[col] + (" Les zones grises n'ont aucun agent ou point : le ratio n'est pas défini." if high_bad else ""))
+            HELP[col] + ratio_undef)
 
     center, zoom = _view(xs, ys)
     fig = go.Figure()

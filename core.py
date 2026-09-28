@@ -5,6 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import streamlit as st
+from shapely.geometry import shape
 
 ROOT = Path(__file__).resolve().parent
 PROC = ROOT / "data" / "processed"
@@ -55,6 +56,40 @@ def load():
 
 
 D = load()
+
+
+# --------------------------------------------------------------------------- distance au point d'accès le plus proche
+@st.cache_data(show_spinner=False)
+def _commune_centroids():
+    """Centroïde (lon, lat) de chaque commune, calculé une fois depuis le fond de carte."""
+    out = {}
+    for feat in D["geo_com"]["features"]:
+        c = shape(feat["geometry"]).centroid
+        out[feat["properties"]["commune"]] = (c.x, c.y)
+    return out
+
+
+def _haversine_km(lon1, lat1, lon2, lat2):
+    lon1, lat1, lon2, lat2 = map(np.radians, [lon1, lat1, lon2, lat2])
+    dlon, dlat = lon2 - lon1, lat2 - lat1
+    a = np.sin(dlat / 2) ** 2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon / 2) ** 2
+    return 2 * 6371 * np.arcsin(np.sqrt(a))
+
+
+def nearest_km(points):
+    """Pour chaque commune, distance à vol d'oiseau (km) jusqu'au point le plus proche d'un jeu de points géolocalisés."""
+    cent = _commune_centroids()
+    communes = list(cent)
+    clon = np.array([cent[c][0] for c in communes]); clat = np.array([cent[c][1] for c in communes])
+    if points.empty:
+        return pd.Series(np.nan, index=communes)
+    plon, plat = points["lon"].to_numpy(), points["lat"].to_numpy()
+    dmin = np.full(len(communes), np.inf)
+    step = 200  # limite la mémoire (117 x step)
+    for i in range(0, len(plon), step):
+        d = _haversine_km(clon[:, None], clat[:, None], plon[None, i:i + step], plat[None, i:i + step])
+        dmin = np.minimum(dmin, d.min(axis=1))
+    return pd.Series(dmin, index=communes)
 
 
 # --------------------------------------------------------------------------- filtres globaux
@@ -152,6 +187,37 @@ def build_pref_table(weights=(0.5, 0.25, 0.25), use_filters=True):
     return p
 
 
+def build_commune_table(use_filters=True):
+    """Indicateurs par commune (117), recalculés selon les filtres — même logique que build_pref_table, plus la distance au point financier le plus proche."""
+    a, f = selected_points(use_filters)
+    c = D["commune"][["commune", "prefecture", "region", "superficie_km2", "pop_2022"]].copy()
+    c["agents_total"] = c["commune"].map(a.groupby("commune").size()).fillna(0).astype(int)
+    c["fin_total"] = c["commune"].map(f.groupby("commune").size()).fillna(0).astype(int)
+    fb = f[f["categorie"].isin(["Banque", "Micro-Finance"])]
+    c["fin_bancaire"] = c["commune"].map(fb.groupby("commune").size()).fillna(0).astype(int)
+    c["agents_pour_1000hab"] = c["agents_total"] / c["pop_2022"] * 1000
+    c["fin_pour_100000hab"] = c["fin_total"] / c["pop_2022"] * 1e5
+    c["hab_par_agent"] = c["pop_2022"] / c["agents_total"].replace(0, np.nan)
+    c["hab_par_point_fin"] = c["pop_2022"] / c["fin_total"].replace(0, np.nan)
+    c["mm_seul"] = (c["agents_total"] > 0) & (c["fin_bancaire"] == 0)
+    c["dist_fin_km"] = c["commune"].map(nearest_km(f)).round(1)
+    med_a = c["agents_pour_1000hab"].median(skipna=True)
+    med_f = c["fin_pour_100000hab"].median(skipna=True)
+    pr = lambda s: s.rank(pct=True) * 100
+    c["indice_acces"] = ((pr(c["agents_pour_1000hab"]) + pr(c["fin_pour_100000hab"]) - pr(c["dist_fin_km"])) / 3).round(1)
+    c.attrs.update(med_a=med_a, med_f=med_f)
+    return c
+
+
+def visible_communes(c):
+    """Applique le filtre territorial (région / préfecture) à une table commune."""
+    ss = st.session_state
+    m = c["region"].isin(regs())
+    if ss["f_prefs"]:
+        m &= c["prefecture"].isin(ss["f_prefs"])
+    return c[m]
+
+
 def visible(p):
     """Applique le filtre territorial (région / préfecture) à une table préfecture."""
     ss = st.session_state
@@ -213,10 +279,11 @@ def message(title, sub=None):
                 unsafe_allow_html=True)
 
 
-def kpi(label, value, note=None, color=BRAND):
+def kpi(label, value, note=None, color=BRAND, source=None):
     st.markdown(
         f'<div class="kpi" style="border-left-color:{color}"><div class="kpi-l">{label}</div>'
-        f'<div class="kpi-v">{value}</div>' + (f'<div class="kpi-n">{note}</div>' if note else "") + "</div>",
+        f'<div class="kpi-v">{value}</div>' + (f'<div class="kpi-n">{note}</div>' if note else "")
+        + (f'<div class="kpi-src">{source}</div>' if source else "") + "</div>",
         unsafe_allow_html=True)
 
 

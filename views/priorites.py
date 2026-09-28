@@ -98,6 +98,35 @@ def render():
     fig.update_yaxes(autorange="reversed"); fig.update_xaxes(range=[0, 100], title="Score de priorité")
     st.plotly_chart(style_fig(fig, 460, legend=False), use_container_width=True, config={"displayModeBar": False})
 
+    # ---------------------------------------------------------------- priorité à l'échelle de la commune
+    st.markdown("---")
+    Cn = core.visible_communes(core.build_commune_table())
+    loin = Cn[Cn["dist_fin_km"] > 5].sort_values("dist_fin_km", ascending=False)
+    message(f"À l'échelle de la commune (117), {len(loin)} sont à plus de 5 km d'un point financier",
+            "La préfecture désigne la zone à traiter ; la commune désigne le point d'implantation. Distance à vol d'oiseau depuis le centroïde communal.")
+    k1, k2, k3 = st.columns(3)
+    with k1: core.kpi("Communes à plus de 5 km", f"{len(loin)} / {len(Cn)}", "d'un point financier en service", ORANGE)
+    with k2: core.kpi("Population concernée", core.fmt(loin["pop_2022"].sum()), "dans ces communes", ORANGE)
+    with k3:
+        pire = loin.iloc[0] if len(loin) else None
+        core.kpi("Commune la plus isolée", pire["commune"] if pire is not None else "—",
+                 f"{core.fmt(pire['dist_fin_km'], 1)} km · {pire['prefecture']}" if pire is not None else "", BLUE)
+    l15 = loin.head(15)
+    if len(l15):
+        fig = go.Figure(go.Bar(x=l15["dist_fin_km"], y=l15["commune"], orientation="h", marker_color=ORANGE,
+                               customdata=l15[["prefecture", "pop_2022", "agents_total", "fin_total"]],
+                               hovertemplate="<b>%{y}</b> (%{customdata[0]})<br>%{x:.1f} km du point financier le plus proche<br>"
+                                             "Population : %{customdata[1]:,.0f}<br>Agents MM : %{customdata[2]:,.0f}<extra></extra>"))
+        fig.update_yaxes(autorange="reversed"); fig.update_xaxes(title="km à vol d'oiseau")
+        st.plotly_chart(style_fig(fig, 420, legend=False), use_container_width=True, config={"displayModeBar": False})
+    with st.expander("Classement complet des communes (117)"):
+        cols = ["commune", "prefecture", "region", "pop_2022", "agents_total", "fin_total", "dist_fin_km", "indice_acces", "mm_seul"]
+        fullc = Cn[cols].sort_values("dist_fin_km", ascending=False).round(1).rename(columns={
+            "commune": "Commune", "prefecture": "Préfecture", "region": "Région", "pop_2022": "Population", "agents_total": "Agents",
+            "fin_total": "Points financiers", "dist_fin_km": "Distance (km)", "indice_acces": "Indice d'accès", "mm_seul": "Mobile money seul"})
+        st.dataframe(fullc, use_container_width=True, hide_index=True)
+        core.download(fullc, "classement_communes.csv", key="dl_rank_com")
+
     # ---------------------------------------------------------------- simulateur
     st.markdown("---")
     message("Simulateur : combien d'agents pour atteindre un objectif de densité ?",

@@ -35,13 +35,15 @@ def render():
         ("Double désavantage", "Sous la médiane nationale à la fois pour les agents et pour les points financiers"),
         ("Agents / points financiers manquants", "Nombre à ajouter pour atteindre la densité médiane nationale (arrondi au supérieur)"),
         ("Score de priorité (0-100)", "Moyenne pondérée (réglable) de : 100 − indice d'accès, rang percentile des agents manquants, rang percentile des points financiers manquants"),
+        ("Distance au point financier le plus proche (km)", "Distance à vol d'oiseau (formule de Haversine) entre le centroïde de la commune et le point financier en service le plus proche, tous types confondus. Recalculée selon les filtres de type d'établissement."),
         ("CA par abonné", "Chiffre d'affaires ÷ abonnés fixe + mobile (calcul propre, l'ARPU du fichier est inexploitable)"),
     ], columns=["Indicateur", "Définition"]), use_container_width=True, hide_index=True)
 
     st.markdown("### Hypothèses et limites")
     for t in [
         "<b>Accès, pas usage.</b> Un agent ou une agence est un point d'accès géolocalisé ; les données ne donnent ni transactions, ni comptes, ni clients. Un ratio faible signale une offre rare, pas forcément une demande non satisfaite.",
-        "<b>Population.</b> RGPH-5 2022. La population est répartie par préfecture et par commune ; les distances (temps de trajet) ne sont pas modélisées. Régions Géodata (5) : le Grand Lomé est inclus dans Maritime, alors que le RGPH-5 le publie à part.",
+        "<b>Population.</b> RGPH-5 2022. La population est répartie par préfecture et par commune. Régions Géodata (5) : le Grand Lomé est inclus dans Maritime, alors que le RGPH-5 le publie à part.",
+        "<b>Distance.</b> Calculée à vol d'oiseau depuis le centroïde géométrique de la commune (pas depuis le lieu où vit réellement la population, ni depuis chaque village). Aucun réseau routier n'est utilisé : un temps de trajet réel serait plus élevé, surtout en zone accidentée ou mal desservie.",
         "<b>Établissements financiers.</b> 13 lignes fermées, abandonnées, en construction ou inachevées sont exclues par défaut (case à décocher dans les filtres). Le statut « Néant » (50 lignes) est conservé : sa signification n'est pas documentée.",
         "<b>Agents mobile money.</b> 12 649 agents (64 %) portent les deux opérateurs ; 1 348 (7 %) n'ont pas d'opérateur renseigné. Le type de service, le genre et la date d'entrée figurent au dictionnaire mais pas dans le fichier fourni.",
         "<b>Internet.</b> La série Banque mondiale compte des individus ; la série sur les abonnés compte des abonnements. Les deux ne sont pas additionnables et ne sont pas comparables en niveau (voir la page Usage d'Internet).",

@@ -1,4 +1,4 @@
-"""Observatoire de l'inclusion numérique et financière du Togo — Togo AI Lab · Économie numérique | Défi 1 | Challenge 2.
+"""Observatoire de l'inclusion numérique et financière du Togo — Togo AI Lab · Économie numérique | Défi 1.
 Lancer : streamlit run app.py
 """
 import streamlit as st
@@ -27,6 +27,7 @@ h2, h3 { color:#0b0b0b; letter-spacing:-0.01em; }
 .kpi-l { font-size:.78rem; color:#52514e; font-weight:500; }
 .kpi-v { font-size:1.7rem; font-weight:700; color:#0b0b0b; line-height:1.15; margin:.15rem 0;}
 .kpi-n { font-size:.78rem; color:#8a8983; }
+.kpi-src { font-size:.7rem; color:#b3b2ac; margin-top:.3rem; padding-top:.3rem; border-top:1px dashed #e6e5e1; }
 .msg { font-size:1.08rem; font-weight:650; color:#0b0b0b; margin:1.1rem 0 .1rem 0; line-height:1.35;}
 .msg-sub { font-size:.86rem; color:#8a8983; margin-bottom:.4rem;}
 .callout { border-radius:10px; padding:.8rem 1rem; font-size:.92rem; line-height:1.5; margin:.6rem 0; background:#fff; border:1px solid #e6e5e1; color:#0b0b0b;}

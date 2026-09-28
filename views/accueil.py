@@ -7,6 +7,7 @@ from core import D, fmt, pct, kpi, message, callout, style_fig, BLUE, ORANGE, AQ
 
 def render():
     T = core.build_pref_table(use_filters=False)  # vue nationale, indépendante des filtres
+    C = core.build_commune_table(use_filters=False)
     pop = T["pop_2022"].sum(); ag = T["agents_total"].sum(); fi = T["fin_total"].sum()
     net = D["internet"].iloc[-1]
     rho = core.spearman(T["agents_pour_1000hab"], T["fin_pour_100000hab"])
@@ -15,23 +16,26 @@ def render():
     dd = T[T["double_desavantage"]]
     mm_seul = T[T["mm_seul"]]
     zero_fin = T[T["fin_total"] == 0]
+    loin = C[C["dist_fin_km"] > 5]
+    part_loin = loin["pop_2022"].sum() / C["pop_2022"].sum() * 100
 
     st.title("Le numérique et le mobile money au Togo : où l'accès manque encore")
     st.markdown(
-        '<p class="lead">Ce tableau de bord répond à trois questions : <b>l\'usage d\'Internet accélère-t-il ?</b> '
+        '<p class="lead">Ce tableau de bord répond à quatre questions : <b>l\'usage d\'Internet accélère-t-il ?</b> '
         '<b>Le mobile money remplace-t-il la banque ou la prolonge-t-il ?</b> <b>Où faut-il agir en premier ?</b> '
+        '<b>Qui est physiquement loin d\'un point financier ?</b> '
         'Les chiffres ci-dessous sont nationaux ; les filtres à gauche s\'appliquent aux pages territoriales.</p>',
         unsafe_allow_html=True)
 
     c = st.columns(5)
-    with c[0]: kpi("Usagers d'Internet (2022)", pct(net["pct_individus"]), "moins de 4 Togolais sur 10", BLUE)
-    with c[1]: kpi("Population (RGPH-5)", fmt(pop), "39 préfectures", BLUE)
-    with c[2]: kpi("Agents mobile money", fmt(ag), f"{fmt(ag / pop * 1000, 1)} pour 1 000 habitants", ORANGE)
-    with c[3]: kpi("Points financiers en service", fmt(fi), f"{fmt(fi / pop * 1e5, 1)} pour 100 000 habitants", AQUA)
-    with c[4]: kpi("Agents pour 1 point financier", fmt(ag / fi, 0), "le mobile money est partout, la banque non", ORANGE)
+    with c[0]: kpi("Usagers d'Internet (2022)", pct(net["pct_individus"]), "moins de 4 Togolais sur 10", BLUE, source="2022 · Banque mondiale")
+    with c[1]: kpi("Population (RGPH-5)", fmt(pop), "39 préfectures, 117 communes", BLUE, source="2022 · INSEED")
+    with c[2]: kpi("Agents mobile money", fmt(ag), f"{fmt(ag / pop * 1000, 1)} pour 1 000 habitants", ORANGE, source="2021/22 · Géodata Togo")
+    with c[3]: kpi("Points financiers en service", fmt(fi), f"{fmt(fi / pop * 1e5, 1)} pour 100 000 habitants", AQUA, source="2025 · Géodata Togo")
+    with c[4]: kpi("Population à plus de 5 km d'un point financier", pct(part_loin, 0), f"{len(loin)} communes concernées", ORANGE, source="Calcul · centroïde communal")
 
     st.markdown("&nbsp;")
-    st.markdown("### Les quatre messages à retenir")
+    st.markdown("### Les cinq messages à retenir")
     m1, m2 = st.columns(2)
     with m1:
         callout(f"<b>1. L'usage d'Internet a longtemps stagné, puis explosé.</b> Au plus 0,5 point de gain par an jusqu'en 2013, "
@@ -39,12 +43,18 @@ def render():
                 "Les abonnements ont pourtant reculé en 2019 (3G) : la croissance n'est pas acquise.", "key")
         callout(f"<b>3. Le mobile money suit la banque au lieu de la remplacer.</b> Corrélation de rang entre densité d'agents et densité de points financiers : "
                 f"ρ = {fmt(rho, 2)}. Là où il y a peu de banques, il y a aussi peu d'agents.", "key")
+        callout(f"<b>5. La distance confirme le déficit, indépendamment des seuils de densité.</b> {pct(part_loin, 0)} de la population vit dans une commune dont le centroïde "
+                f"est à plus de 5 km à vol d'oiseau du point financier le plus proche ({len(loin)} communes sur {len(C)}). "
+                "Cet indicateur géographique s'ajoute aux ratios par habitant, il ne les remplace pas.", "key")
     with m2:
         callout(f"<b>2. Le Grand Lomé concentre l'offre.</b> {pct(part_pop * 100, 0)} de la population, mais {pct(part_ag * 100, 0)} des agents "
                 f"et <b>{pct(part_fi * 100, 0)}</b> des points financiers en service.", "key")
         callout(f"<b>4. {len(dd)} préfectures sont sous la médiane nationale sur les deux axes</b> (agents et points financiers), "
                 f"{len(zero_fin)} préfecture sans aucun point financier en service ({', '.join(zero_fin['prefecture'])}), "
                 f"et {len(mm_seul)} n'est servie que par le mobile money.", "warn")
+        callout("<b>Limites à garder en tête :</b> ce sont des points d'accès géolocalisés, pas des transactions ni des clients ; "
+                "la distance est à vol d'oiseau depuis le centre de la commune, pas un temps de trajet réel. "
+                "Détail complet : page « Méthode et qualité des données ».", "warn")
 
     message("Où l'accès est le plus faible : indice d'accès composite par préfecture",
             "Moyenne des rangs percentiles sur trois mesures : agents pour 1 000 habitants, points financiers pour 100 000 habitants, agents par km². 0 = moins bien servie, 100 = mieux servie.")
