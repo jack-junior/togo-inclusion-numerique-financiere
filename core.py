@@ -103,7 +103,8 @@ def sidebar_filters():
     ss.setdefault("f_service", True)
 
     with st.sidebar:
-        st.markdown('<div class="side-h">FILTRES GLOBAUX</div>', unsafe_allow_html=True)
+        st.markdown('<div class="brand"><div class="dot">T</div><div><b>Observatoire Togo</b><span>Inclusion numérique & financière</span></div></div>', unsafe_allow_html=True)
+        st.markdown('<div class="side-h">Explorer les données</div>', unsafe_allow_html=True)
         st.multiselect("Région (vide = toutes)", REGIONS, key="f_regions", placeholder="Toutes les régions",
                        help="Régions Géodata (5) : le Grand Lomé est inclus dans Maritime.")
         opts = sorted(D["pref"].loc[D["pref"]["region"].isin(regs()), "prefecture"])
@@ -289,7 +290,7 @@ def kpi(label, value, note=None, color=BRAND, source=None, icon=None):
         unsafe_allow_html=True)
 
 
-def header(title, lead=None, icon="📊", kicker="Togo AI Lab · Économie numérique · Défi 1"):
+def header(title, lead=None, icon="", kicker="OBSERVATOIRE · TOGO"):
     """En-tête de page : bandeau coloré (icône + kicker + titre), identique sur toutes les pages, puis le chapeau."""
     st.markdown(
         f'<div class="page-hero"><div class="kicker">{kicker}</div>'
