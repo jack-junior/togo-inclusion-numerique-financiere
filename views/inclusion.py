@@ -8,7 +8,7 @@ from core import D, fmt, pct, message, callout, style_fig, BLUE, ORANGE, AQUA, Y
 
 
 def render():
-    st.title("Mobile money et banque : complément ou substitut ?")
+    core.header("Mobile money et banque : complément ou substitut ?", icon="🏦")
     st.markdown('<p class="lead">Si le mobile money remplaçait la banque, il serait plus dense là où les banques sont rares. '
                 'Les données montrent l\'inverse : les deux offres se superposent. Les filtres de gauche s\'appliquent à cette page.</p>', unsafe_allow_html=True)
 

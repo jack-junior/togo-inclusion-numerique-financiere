@@ -23,25 +23,37 @@ h2, h3 { color:#0b0b0b; letter-spacing:-0.01em; }
 .brand b { font-size:1.02rem; color:#0b0b0b; display:block; line-height:1.15;}
 .brand span { font-size:.78rem; color:#8a8983;}
 .dot { width:34px; height:34px; border-radius:9px; background:#1a7a4c; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700;}
-.kpi { background:#fff; border:1px solid #e6e5e1; border-left:4px solid #1a7a4c; border-radius:10px; padding:.85rem 1rem; height:100%;}
+.kpi { background:#fff; border:1px solid #e6e5e1; border-left:4px solid #1a7a4c; border-radius:12px; padding:.9rem 1rem; height:100%;
+       box-shadow: 0 1px 2px rgba(20,20,15,.03), 0 6px 14px -10px rgba(20,20,15,.10); transition: box-shadow .15s ease, transform .15s ease;}
+.kpi:hover { box-shadow: 0 2px 4px rgba(20,20,15,.05), 0 10px 20px -10px rgba(20,20,15,.16); transform: translateY(-1px);}
+.kpi-icon { font-size:1.15rem; margin-bottom:.3rem; opacity:.9; line-height:1;}
 .kpi-l { font-size:.78rem; color:#52514e; font-weight:500; }
 .kpi-v { font-size:1.7rem; font-weight:700; color:#0b0b0b; line-height:1.15; margin:.15rem 0;}
 .kpi-n { font-size:.78rem; color:#8a8983; }
 .kpi-src { font-size:.7rem; color:#b3b2ac; margin-top:.3rem; padding-top:.3rem; border-top:1px dashed #e6e5e1; }
 .msg { font-size:1.08rem; font-weight:650; color:#0b0b0b; margin:1.1rem 0 .1rem 0; line-height:1.35;}
 .msg-sub { font-size:.86rem; color:#8a8983; margin-bottom:.4rem;}
-.callout { border-radius:10px; padding:.8rem 1rem; font-size:.92rem; line-height:1.5; margin:.6rem 0; background:#fff; border:1px solid #e6e5e1; color:#0b0b0b;}
+.callout { border-radius:10px; padding:.8rem 1rem; font-size:.92rem; line-height:1.5; margin:.6rem 0; background:#fff; border:1px solid #e6e5e1; color:#0b0b0b;
+           box-shadow: 0 1px 2px rgba(20,20,15,.03);}
 .callout.warn { background:#fff8e6; border-color:#f0dca0;}
 .callout.key { background:#eef6ff; border-color:#c9def7;}
 .callout.ok { background:#eef8f2; border-color:#c3e3cf;}
 .tag { display:inline-block; padding:.08rem .5rem; border-radius:99px; font-size:.72rem; font-weight:600; margin-right:.3rem;}
 .tag.h { background:#fde3e3; color:#9b1c1c;} .tag.m { background:#fff0d0; color:#8a5a00;} .tag.b { background:#e3efe8; color:#1a5a3a;}
-.reco { background:#fff; border:1px solid #e6e5e1; border-radius:12px; padding:1rem 1.15rem; margin:.55rem 0;}
+.reco { background:#fff; border:1px solid #e6e5e1; border-radius:12px; padding:1rem 1.15rem; margin:.55rem 0;
+        box-shadow: 0 1px 2px rgba(20,20,15,.03), 0 6px 14px -10px rgba(20,20,15,.08);}
 .reco h4 { margin:.1rem 0 .35rem 0; font-size:1.02rem; color:#0b0b0b;}
 .reco p { margin:.15rem 0; font-size:.9rem; color:#52514e; line-height:1.5;}
 .reco .big { font-size:.92rem; color:#0b0b0b; font-weight:600;}
 .foot { font-size:.75rem; color:#8a8983; margin-top:2rem; border-top:1px solid #e6e5e1; padding-top:.6rem;}
 div[data-testid="stMetric"] { background:#fff; border:1px solid #e6e5e1; border-radius:10px; padding:.6rem .8rem;}
+
+/* -- en-tête de page (bandeau coloré, identité visuelle commune à toutes les pages) -- */
+.page-hero { background: linear-gradient(120deg, #0f2338 0%, #184f95 58%, #1a7a4c 145%); border-radius:16px;
+             padding: 1.35rem 1.8rem; margin: .1rem 0 1.3rem 0; box-shadow: 0 10px 26px -14px rgba(15,35,56,.45);}
+.page-hero .kicker { font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.75); margin-bottom:.3rem;}
+.page-hero h1 { color:#fff !important; margin:0 !important; font-size:1.9rem !important; font-weight:700 !important; letter-spacing:-0.02em; line-height:1.25;}
+.page-hero .icon { font-size:1.4rem; margin-right:.5rem; vertical-align:-2px;}
 </style>
 """
 st.markdown(CSS, unsafe_allow_html=True)
@@ -52,19 +64,19 @@ from views import accueil, internet, marche, carte, inclusion, priorites, method
 
 pages = {
     "Principal": [
-        st.Page(accueil.render, title="Vue d'ensemble", icon=":material/dashboard:", url_path="accueil", default=True),
+        st.Page(accueil.render, title="Vue d'ensemble", icon="📊", url_path="accueil", default=True),
     ],
     "Adoption du numérique": [
-        st.Page(internet.render, title="Usage d'Internet", icon=":material/trending_up:", url_path="internet"),
-        st.Page(marche.render, title="Marché télécom", icon=":material/cell_tower:", url_path="marche"),
+        st.Page(internet.render, title="Usage d'Internet", icon="📶", url_path="internet"),
+        st.Page(marche.render, title="Marché télécom", icon="📡", url_path="marche"),
     ],
     "Accès dans les territoires": [
-        st.Page(carte.render, title="Carte des accès", icon=":material/map:", url_path="carte"),
-        st.Page(inclusion.render, title="Mobile money et banque", icon=":material/account_balance:", url_path="inclusion"),
+        st.Page(carte.render, title="Carte des accès", icon="🗺️", url_path="carte"),
+        st.Page(inclusion.render, title="Mobile money et banque", icon="🏦", url_path="inclusion"),
     ],
     "Décision": [
-        st.Page(priorites.render, title="Priorités et recommandations", icon=":material/flag:", url_path="priorites"),
-        st.Page(methodo.render, title="Méthode et qualité des données", icon=":material/fact_check:", url_path="methode"),
+        st.Page(priorites.render, title="Priorités et recommandations", icon="🎯", url_path="priorites"),
+        st.Page(methodo.render, title="Méthode et qualité des données", icon="🔍", url_path="methode"),
     ],
 }
 nav = st.navigation(pages)

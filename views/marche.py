@@ -17,7 +17,7 @@ def _line(x, y, color, name, hover, height=280, yfmt=None, bar=False):
 
 
 def render():
-    st.title("Marché télécom : plus d'abonnés, mais un chiffre d'affaires qui stagne")
+    core.header("Marché télécom : plus d'abonnés, mais un chiffre d'affaires qui stagne", icon="📡")
     st.markdown('<p class="lead">Deux opérateurs (Togo Cellulaire / Togocom et Atlantique Telecom / Moov), 2013-2019. '
                 'Les séries s\'arrêtent en 2019 : aucune conclusion n\'est possible sur la période récente.</p>', unsafe_allow_html=True)
     m = core.mk_pivot()
@@ -31,10 +31,10 @@ def render():
     parts_at = m["Part de marché Atlantique Telecom Togo (en abonnées)"]
 
     c = st.columns(4)
-    with c[0]: core.kpi("Abonnés fixe + mobile 2019", fmt(subs.loc[2019] / 1e6, 2) + " M", f"+{fmt((subs.loc[2019] / subs.loc[2013] - 1) * 100, 0)} % depuis 2013", BLUE)
-    with c[1]: core.kpi("Chiffre d'affaires 2019", fmt(ca.loc[2019], 1) + " Mds FCFA", f"{fmt((ca.loc[2019] / ca.loc[2013] - 1) * 100, 1)} % depuis 2013", ORANGE)
-    with c[2]: core.kpi("CA par abonné 2019", fmt(ca_ab.loc[2019]) + " FCFA", f"{fmt((ca_ab.loc[2019] / ca_ab.loc[2013] - 1) * 100, 0)} % depuis 2013", ORANGE)
-    with c[3]: core.kpi("Télédensité mobile 2019", pct(tel.loc[2019]), "≈ 82 lignes pour 100 habitants", AQUA)
+    with c[0]: core.kpi("Abonnés fixe + mobile 2019", fmt(subs.loc[2019] / 1e6, 2) + " M", f"+{fmt((subs.loc[2019] / subs.loc[2013] - 1) * 100, 0)} % depuis 2013", BLUE, icon="📱")
+    with c[1]: core.kpi("Chiffre d'affaires 2019", fmt(ca.loc[2019], 1) + " Mds FCFA", f"{fmt((ca.loc[2019] / ca.loc[2013] - 1) * 100, 1)} % depuis 2013", ORANGE, icon="💰")
+    with c[2]: core.kpi("CA par abonné 2019", fmt(ca_ab.loc[2019]) + " FCFA", f"{fmt((ca_ab.loc[2019] / ca_ab.loc[2013] - 1) * 100, 0)} % depuis 2013", ORANGE, icon="💳")
+    with c[3]: core.kpi("Télédensité mobile 2019", pct(tel.loc[2019]), "≈ 82 lignes pour 100 habitants", AQUA, icon="📡")
 
     a, b = st.columns(2)
     with a:

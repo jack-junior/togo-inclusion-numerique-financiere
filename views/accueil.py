@@ -19,7 +19,7 @@ def render():
     loin = C[C["dist_fin_km"] > 5]
     part_loin = loin["pop_2022"].sum() / C["pop_2022"].sum() * 100
 
-    st.title("Le numérique et le mobile money au Togo : où l'accès manque encore")
+    core.header("Le numérique et le mobile money au Togo : où l'accès manque encore", icon="📊")
     st.markdown(
         '<p class="lead">Ce tableau de bord répond à quatre questions : <b>l\'usage d\'Internet accélère-t-il ?</b> '
         '<b>Le mobile money remplace-t-il la banque ou la prolonge-t-il ?</b> <b>Où faut-il agir en premier ?</b> '
@@ -28,11 +28,11 @@ def render():
         unsafe_allow_html=True)
 
     c = st.columns(5)
-    with c[0]: kpi("Usagers d'Internet (2022)", pct(net["pct_individus"]), "moins de 4 Togolais sur 10", BLUE, source="2022 · Banque mondiale")
-    with c[1]: kpi("Population (RGPH-5)", fmt(pop), "39 préfectures, 117 communes", BLUE, source="2022 · INSEED")
-    with c[2]: kpi("Agents mobile money", fmt(ag), f"{fmt(ag / pop * 1000, 1)} pour 1 000 habitants", ORANGE, source="2021/22 · Géodata Togo")
-    with c[3]: kpi("Points financiers en service", fmt(fi), f"{fmt(fi / pop * 1e5, 1)} pour 100 000 habitants", AQUA, source="2025 · Géodata Togo")
-    with c[4]: kpi("Population à plus de 5 km d'un point financier", pct(part_loin, 0), f"{len(loin)} communes concernées", ORANGE, source="Calcul · centroïde communal")
+    with c[0]: kpi("Usagers d'Internet (2022)", pct(net["pct_individus"]), "moins de 4 Togolais sur 10", BLUE, source="2022 · Banque mondiale", icon="📶")
+    with c[1]: kpi("Population (RGPH-5)", fmt(pop), "39 préfectures, 117 communes", BLUE, source="2022 · INSEED", icon="👥")
+    with c[2]: kpi("Agents mobile money", fmt(ag), f"{fmt(ag / pop * 1000, 1)} pour 1 000 habitants", ORANGE, source="2021/22 · Géodata Togo", icon="📱")
+    with c[3]: kpi("Points financiers en service", fmt(fi), f"{fmt(fi / pop * 1e5, 1)} pour 100 000 habitants", AQUA, source="2025 · Géodata Togo", icon="🏦")
+    with c[4]: kpi("Population à plus de 5 km d'un point financier", pct(part_loin, 0), f"{len(loin)} communes concernées", ORANGE, source="Calcul · centroïde communal", icon="📍")
 
     st.markdown("&nbsp;")
     st.markdown("### Les cinq messages à retenir")

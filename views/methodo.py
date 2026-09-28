@@ -6,7 +6,7 @@ from core import D, fmt, message, callout
 
 
 def render():
-    st.title("Méthode et qualité des données")
+    core.header("Méthode et qualité des données", icon="🔍")
     st.markdown('<p class="lead">Ce qui a été mesuré, comment, avec quelles hypothèses, et ce que les données ne permettent pas de dire.</p>', unsafe_allow_html=True)
     c = D["controles"]
 

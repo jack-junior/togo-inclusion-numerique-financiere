@@ -72,7 +72,7 @@ def _recos(T, dec, it, pa, m):
 
 
 def render():
-    st.title("Priorités et recommandations")
+    core.header("Priorités et recommandations", icon="🎯")
     st.markdown('<p class="lead">Un score de priorité réglable désigne les préfectures où agir en premier ; huit recommandations chiffrées en découlent. '
                 'Le classement s\'appuie sur les filtres opérateur et type d\'établissement de la barre latérale.</p>', unsafe_allow_html=True)
 
@@ -105,12 +105,12 @@ def render():
     message(f"À l'échelle de la commune (117), {len(loin)} sont à plus de 5 km d'un point financier",
             "La préfecture désigne la zone à traiter ; la commune désigne le point d'implantation. Distance à vol d'oiseau depuis le centroïde communal.")
     k1, k2, k3 = st.columns(3)
-    with k1: core.kpi("Communes à plus de 5 km", f"{len(loin)} / {len(Cn)}", "d'un point financier en service", ORANGE)
-    with k2: core.kpi("Population concernée", core.fmt(loin["pop_2022"].sum()), "dans ces communes", ORANGE)
+    with k1: core.kpi("Communes à plus de 5 km", f"{len(loin)} / {len(Cn)}", "d'un point financier en service", ORANGE, icon="📍")
+    with k2: core.kpi("Population concernée", core.fmt(loin["pop_2022"].sum()), "dans ces communes", ORANGE, icon="👥")
     with k3:
         pire = loin.iloc[0] if len(loin) else None
         core.kpi("Commune la plus isolée", pire["commune"] if pire is not None else "—",
-                 f"{core.fmt(pire['dist_fin_km'], 1)} km · {pire['prefecture']}" if pire is not None else "", BLUE)
+                 f"{core.fmt(pire['dist_fin_km'], 1)} km · {pire['prefecture']}" if pire is not None else "", BLUE, icon="🚩")
     l15 = loin.head(15)
     if len(l15):
         fig = go.Figure(go.Bar(x=l15["dist_fin_km"], y=l15["commune"], orientation="h", marker_color=ORANGE,
@@ -136,9 +136,9 @@ def render():
     need = np.ceil(np.clip(tgt * T["pop_2022"] / 1000 - T["agents_total"], 0, None)).astype(int)
     sim = T.assign(agents_a_ajouter=need)[["prefecture", "region", "pop_2022", "agents_total", "agents_pour_1000hab", "agents_a_ajouter"]].sort_values("agents_a_ajouter", ascending=False)
     k1, k2, k3 = st.columns(3)
-    with k1: core.kpi("Agents à ajouter", fmt(need.sum()), f"pour {fmt(tgt, 2)} agents / 1 000 hab. partout", ORANGE)
-    with k2: core.kpi("Préfectures concernées", f"{int((need > 0).sum())} / {len(T)}", "sous l'objectif", BLUE)
-    with k3: core.kpi("Effort relatif", pct(need.sum() / max(T["agents_total"].sum(), 1) * 100, 1), "de plus que le parc actuel de la sélection", BLUE)
+    with k1: core.kpi("Agents à ajouter", fmt(need.sum()), f"pour {fmt(tgt, 2)} agents / 1 000 hab. partout", ORANGE, icon="➕")
+    with k2: core.kpi("Préfectures concernées", f"{int((need > 0).sum())} / {len(T)}", "sous l'objectif", BLUE, icon="🏘️")
+    with k3: core.kpi("Effort relatif", pct(need.sum() / max(T["agents_total"].sum(), 1) * 100, 1), "de plus que le parc actuel de la sélection", BLUE, icon="📈")
     show = sim.rename(columns={"prefecture": "Préfecture", "region": "Région", "pop_2022": "Population", "agents_total": "Agents actuels",
                                "agents_pour_1000hab": "Agents / 1 000 hab.", "agents_a_ajouter": "Agents à ajouter"}).round(2)
     st.dataframe(show[show["Agents à ajouter"] > 0], use_container_width=True, hide_index=True, height=300)

@@ -9,7 +9,7 @@ REGIMES = [(1996, 2013, "Stagnation", "#f0efec"), (2014, 2018, "Décollage", "#e
 
 
 def render():
-    st.title("Usage d'Internet : trois régimes, puis une accélération")
+    core.header("Usage d'Internet : trois régimes, puis une accélération", icon="📶")
     st.markdown('<p class="lead">Part de la population qui utilise Internet (1996-2022) et abonnements par technologie (2013-2019). '
                 'Deux mesures différentes : des <b>personnes</b> d\'un côté, des <b>abonnements</b> de l\'autre.</p>', unsafe_allow_html=True)
 

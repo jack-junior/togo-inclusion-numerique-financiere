@@ -279,12 +279,23 @@ def message(title, sub=None):
                 unsafe_allow_html=True)
 
 
-def kpi(label, value, note=None, color=BRAND, source=None):
+def kpi(label, value, note=None, color=BRAND, source=None, icon=None):
     st.markdown(
-        f'<div class="kpi" style="border-left-color:{color}"><div class="kpi-l">{label}</div>'
+        f'<div class="kpi" style="border-left-color:{color}">'
+        + (f'<div class="kpi-icon">{icon}</div>' if icon else "")
+        + f'<div class="kpi-l">{label}</div>'
         f'<div class="kpi-v">{value}</div>' + (f'<div class="kpi-n">{note}</div>' if note else "")
         + (f'<div class="kpi-src">{source}</div>' if source else "") + "</div>",
         unsafe_allow_html=True)
+
+
+def header(title, lead=None, icon="📊", kicker="Togo AI Lab · Économie numérique · Défi 1"):
+    """En-tête de page : bandeau coloré (icône + kicker + titre), identique sur toutes les pages, puis le chapeau."""
+    st.markdown(
+        f'<div class="page-hero"><div class="kicker">{kicker}</div>'
+        f'<h1><span class="icon">{icon}</span>{title}</h1></div>', unsafe_allow_html=True)
+    if lead:
+        st.markdown(f'<p class="lead">{lead}</p>', unsafe_allow_html=True)
 
 
 def callout(text, kind="info"):

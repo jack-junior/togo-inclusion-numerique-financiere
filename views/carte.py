@@ -48,7 +48,7 @@ def _bounds(geo, names, key):
 
 
 def render():
-    st.title("Carte des accès : où les agents et les banques manquent")
+    core.header("Carte des accès : où les agents et les banques manquent", icon="🗺️")
     st.markdown('<p class="lead">Choisissez un indicateur et un niveau (préfectures ou communes). Les filtres de gauche '
                 '(région, préfecture, opérateur, type d\'établissement) s\'appliquent à la carte, aux classements et aux exports.</p>', unsafe_allow_html=True)
 
